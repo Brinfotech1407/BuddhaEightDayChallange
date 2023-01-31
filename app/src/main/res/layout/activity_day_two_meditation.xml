@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 2 Meditation"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Sit upright in a comfortable position. Concentrate on “ the 3rd eye point” meaning the
+point directly in between your eyebrows, or the tip of your nose as your breath comes in
+and out. As thoughts come just note the thought, whatever it is and bring your
+awareness back to the breath. Ask yourself 'who is breathing?' Do this for minumum 5
+            minutes in the morning and 5 minutes in the evening."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="If you choose to continue to do this meditation after the 8-day challenge is over, you can
+increase the duration by 5 minutes per day."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

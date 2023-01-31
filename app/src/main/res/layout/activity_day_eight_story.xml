@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 8: Story"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_day_eight_story"
+                android:layout_height="wrap_content"/>
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="One day Buddha was walking from one town to another with few of his followers this was in the
+initial days. While they were travelling they happened to pass by a lake. They stopped there and
+Buddha told one of his disciples “ I am thirsty, please get me some water from the lake over there”.
+The disciple walked up to the lake… when he reached it, he noticed that some people were washing
+clothes in the water and right at that moment a bull cart started crossing the lake right at the edge of it
+as a result, the water became very muddy, very, turbid. The disciple thought: How can I give this
+muddy water to Buddha to drink?
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="So he came back and told Buddha: The water there is very muddy, I don’t think it is fit to drink. so,
+the Buddha Said, Let us take a little rest here, by the tree. After about half an hour, again, Buddha
+asked the same disciple to go back to the lake and get him some water to drink. The disciple
+obediently went back to the lake, this time he found that the lake had absolutely clear water in it. the
+mud had settled down, and the water above it looked fit to be had."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="so he collected some water in the pot and brought it to the Buddha. The Buddha looked at the water
+and looked at the and then he looked up at the disciple and said: See… you let the water be and the
+mud settled down on its own, you got clear water, it didn’t require any effort"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="The moral of the story, you see in your life too your mind is like that lake, when it is disturbed just
+let it be, give it a little time, it will settle by its own, we don't have to put any effort to calm it down,
+we can judge and take the best decision in our life when we stay calm. Much of his
+renown comes from a famous four-line teaching attributed to him:"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="This is a very simple and yet extremely powerful parable. This is also a powerful meditation, just to
+leave the mind alone is also a form of true mindfulness and meditation. This is right concentration.
+Many people would think it is too simple, yet try and experience it for yourself, it can be a life saver
+or even bring one to true enlightenment! This is a true golden key."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

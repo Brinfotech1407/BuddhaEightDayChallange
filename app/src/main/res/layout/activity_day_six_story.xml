@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 6 Story"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="The Great Horse Knowing-one"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="[Courage]"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Once upon a time, King Brahmadatta ruled in Benares, in
+northern India. He had a mighty horse, who had been born in
+the land of Sindh, in the Indus River valley of western India.
+Indeed, this horse was the Enlightenment Being.
+
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='As well as being big and strong, he was very intelligent and
+wise. When he was still young, people noticed that he always
+seemed to know what his rider wanted before being told. So
+he was called Knowing-one'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='He was considered the greatest of the royal horses, and was
+given the very best of everything. His stall was decorated and
+was always kept clean and beautiful. Horses are usually
+faithful to their masters. Knowing-one was especially loyal,
+and was grateful for how well the king cared for him. Of all the
+royal horses, Knowing-one was also the bravest. So the king
+respected and trusted him.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='It came to pass that seven neighbouring kings joined together
+to make war on King Brahmadatta. Each king brought four
+great armies - an elephant cavalry, a horse cavalry, a chariot
+brigade and ranks of foot soldiers. Together the seven kings,
+with all their armies, surrounded the city of Benares.
+.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='King Brahmadatta assembled his ministers and advisers to
+make plans for defending the kingdom. They advised him, "Do
+not surrender. We must fight to protect our high positions. But
+you should not risk your royal person in the beginning.
+Instead, send out the champion of all the knights to represent
+you on the battlefield. If he fails, only then must you yourself
+go."'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='So the king called the champion to him and asked, "Can you
+be victorious over these seven kings?" The knight replied, "If
+you permit me to ride out on the bravest and wisest, the great
+horse Knowing-one, only then can I win the battle." The king
+agreed and said, "My champion, it is up to you and Knowingone to save the country in its time of danger. Take with you
+whateveryouneed"
+            '
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="The champion knight went to the royal stables. He ordered that Knowing-one be well fed and dressed in protective armor, with all the finest trimmings. Then he bowed respectfully and climbed into the beautiful saddle."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Knowing-one knew the situation. He thought, "These seven kings have come to attack my country and my king, who feeds and cares for and trusts me. Not only the seven kings, but also their large and powerful armies threaten my king and all in Benares. I cannot let them win. But I also cannot permit the champion knight to kill those kings. Then I too would share in the unwholesome action of taking the lives of others, in order to win an ordinary victory. Instead, I will teach a new way. I will capture all seven kings without killing anyone. That would be a truly great victory!"'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="As he spoke of 'a new way', and 'the true course', and 'the courage that goes beyond', it seemed the noble steed became larger than life. He reared up majestically on his powerful hind legs, and looked down on all the armies surrounding the city. The eyes of all were drawn to this magnificent one. The earth trembled as his front hoofs returned to the ground and he charged into the midst of the four armies of the first king. He seemed to have the speed of lightning, the might of a hundred elephants, and the glorious confidence of one from some other world."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="The elephants could remember no such horse as this, and so the elephant cavalry retreated in fear. The horses knew that this their relative was the worthy master of them all, and so the horse cavalry and the chariot brigade stood still and bowed as the Great Being passed. And the ranks of foot-soldiers scattered like flies before a strong wind."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/ic_day_six_story_image"
+                android:layout_height="wrap_content"/>
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="The first king hardly knew what had happened, before he was easily captured and brought back into the city of Benares. And so too with the second, third, fourth and fifth kings."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="The first king hardly knew what had happened, before he was easily captured and brought back into the city of Benares. And so too with the second, third, fourth and fifth kings."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="When the knight saw the terrible wound, he suddenly became afraid to ride the weakened Knowing-one against the seventh king. So he began to dress in armour another powerful war horse, who was really just as big as Knowing-one."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Seeing this, though suffering in great pain from his deadly wound, Knowing-one thought, "This champion knight has lost his courage so quickly. He has not understood the true nature of my power - the knowledge that true peace is only won by peaceful means. He tries to defeat the seventh king and his armies in the ordinary way, riding an ordinary horse.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Seeing this, though suffering in great pain from his deadly wound, Knowing-one thought, "This champion knight has lost his courage so quickly. He has not understood the true nature of my power - the knowledge that true peace is only won by peaceful means. He tries to defeat the seventh king and his armies in the ordinary way, riding an ordinary horse.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='After taking the first step of giving up the killing of living beings, I cannot stop part way. My great effort to teach a new way would disappear like a line drawn in water!"'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='The great horse Knowing-one spoke to the champion knight. "Sir knight, the seventh king and his armies are the mightiest of all. Riding an ordinary horse, even if you slaughter a thousand men and animals, you will be defeated. I, of the mighty tribe of Sindh horses, the one called Knowing-one, only I can pass through them harming none, and bring back the seventh king alive!"'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='The champion knight regained his courage. The brave horse struggled to his feet, in great pain. While the blood continued to flow, he reared and charged through the four armies, and the knight brought back the last of the seven warlike kings. Again all those in his path were spared from harm. Seeing their seven kings in captivity, all the armies laid down their weapons and asked for peace.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Realizing that the great horse Knowing-one would not live through the night, King Brahmadatta went to see him. He had raised him from a colt, so he loved him. When he saw that he was dying, his eyes filled with tears.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Knowing-one said, "My lord king, I have served you well. And I have gone beyond and shown a new way. Now you must grant my last request. You must not kill these seven kings, even though they have wronged you. For a bloody victory sows the seeds of the next war. Forgive their attack on you, let them return to their kingdoms, and may you all live in peace from now on.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='"Whatever reward you would give to me, give instead to the champion knight. Do only wholesome deeds, be generous, honour the Truth, and kill no living being. Rule with justice and compassion."'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Then he closed his eyes and breathed his last. The king burst into tears, and all mourned his passing. With the highest honours, they burned the body of the great horse Knowing-one - the Enlightenment Being.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='King Brahmadatta had the seven kings brought before him. They too honored the great one, who had defeated their vast armies without spilling a drop of blood, except his own. In his memory they made peace, and never again did these seven kings and Brahmadatta make war on each other.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text='The moral is: True peace is only won by peaceful means.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text='Like the Knowing Horse, we can work for truth peacefully with courage and determination.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text='Here is and additional excerpt to illustrate how Right Effort works to our advantage'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text='In this simile the tall boy who picks the flowers represents concentration with its function of unifying the mind. But to unify the mind concentration needs support: the energy provided by right effort, which is like the boy who offers his back. It also requires the stabilizing awareness provided by mindfulness, which is like the boy who offers his shoulder. When right concentration receives this support, then empowered by right effort and balanced by right mindfulness it can draw in the scattered strands of thought and fix the mind firmly on its object.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

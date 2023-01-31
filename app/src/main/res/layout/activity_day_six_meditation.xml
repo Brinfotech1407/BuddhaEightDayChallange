@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 6 Meditation"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="Today's Meditation for Right Effort is simply practicing concentration, that is one of the
+prescribed techniques to help remedy worry or restlessness."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="Use a candle or some other object, even a spot on the wall in front of you."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Simply focus on the object and breath in and out. Watch your thoughts as they come and
+go. Try to do this for 15 minutes in the morning and 15 minutes at night. If you can't
+handle 15 minutes start with 5 to 10 minutes. It's normal for the mind to become restless
+at first, but it's likely you will notice it start to calm down and that is the beginning of true
+meditation! This is a simple and powerful technique that is also good for developing
+concentration.
+
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Right Effort consists of the Four Great Efforts: the effort to avoid, to overcome, to develop,
+and to maintain.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='The definition (the four Right Exertions):'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='"And what, monks, is right effort?'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[i] "There is the case where a monk generates desire, endeavors,
+activates persistence, upholds &amp; exerts his intent for the sake of the
+non-arising of evil, unskillful qualities that have not yet arisen.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[ii] "He generates desire, endeavors, activates persistence, upholds
+&amp; exerts his intent for the sake of the abandonment of evil, unskillful
+qualities that have arisen.
+            '
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[iii] "He generates desire, endeavors, activates persistence, upholds
+&amp; exerts his intent for the sake of the arising of skillful qualities that
+have not yet arisen.'
+
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[iv] "He generates desire, endeavors, activates persistence, upholds
+&amp; exerts his intent for the maintenance, non-confusion, increase,
+plenitude, development, &amp; culmination of skillful qualities that have
+arisen: This, monks, is called right effort.'
+
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Right Effort lays the foundation for a creating a wholesome
+state of mind and lifestyle in order to further spiritual
+progress. It`s not through fighting with the current state of
+mind or thoughts, but by utilizing prescribed techniques and cultivating good habits. The Buddha prescribed specific
+techniques to accomplish this. Here is one excellent reference
+link https://www.vipassana.com/resources/8fp5.php (recommended to
+read today as time permits).
+            ..'
+
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

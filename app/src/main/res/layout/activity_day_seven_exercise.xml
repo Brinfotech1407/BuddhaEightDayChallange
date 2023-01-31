@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 7 (Exercise)
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="During the day note any tendencies within your habitual patterns of thinking that you
+feel could lead to destructive habits, such as lust :), anger, vengeful, scheming, taking
+advantage of others, etc.. Becoming aware of these patterns while not acting upon
+them will over time help you to erase and release those patterns. When you observe
+those patterns or thoughts, consciously form a contrary thought. For example if you
+have a thought about wanting to hurt someone, create a contrary thought of loving
+them. One way is to see them as your mother, father, brother, sister, or someone that
+you love. A common exercise is to see everyone as your Mother because in Buddhism it
+is believed that we have had many many lifetimes as a soul and it is likely that person
+has been a mother to you. Thinking of all the sacrifice they would have made to raise
+you and take care of you, helps to alleviate angry thoughts and cultivates thoughts and
+feelings of gratitude. Gratitude is a fast path or short-cut to a higher state of
+consciousness. "
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

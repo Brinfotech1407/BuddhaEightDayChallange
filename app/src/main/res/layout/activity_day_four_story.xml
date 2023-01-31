@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Story day 4"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Finding a New Spring"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="[Perseverance]"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Once upon a time a certain tradesman was leading a caravan to another country to sell
+his goods. Along the way they came to the edge of a severe hot-sand desert. They
+asked about, and found that during the day time the sun heats up the fine sand until it's
+as hot as charcoal, so no one can walk on it - not even bullocks or camels! So the
+caravan leader hired a desert guide, one who could follow the stars, so they could travel
+only at night when the sand cools down. They began the dangerous night time journey
+across the desert.
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="A couple of nights later, after eating their evening meal, and waiting for the sand to cool,
+they started out again. Later that night the desert guide, who was driving the first cart,
+saw from the stars that they were getting close to the other side of the desert. He had
+also overeaten, so that when he relaxed, he dozed off to sleep. Then the bullocks who,
+of course, couldn't tell directions by reading the stars, gradually turned to the side and  went in a big wide circle until they ended up at the same place they had started from!
+            "
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='By then it was morning, and the people realized they were back at the same spot they`d
+camped at the day before. They lost heart and began to cry about their condition. Since
+the desert crossing was supposed to be over by now, they had no more water and were
+afraid they would die of thirst. They even began to blame the caravan leader and the
+desert guide - "We can do nothing without water!", they complained.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Then the tradesman thought to himself, "If I lose courage now, in the middle of this
+disastrous situation, my leadership has no meaning. If I fall to weeping and regretting
+this misfortune, and do nothing, all these goods and bullocks and even the lives of the
+people, including myself, may be lost. I must be energetic and face the situation!" So he
+began walking back and forth, trying to think out a plan to save them all.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Remaining alert, out of the corner of his eye, he noticed a small clump of grass. He
+thought, "Without water, no plant could live in this desert." So he called over the most
+energetic of his fellow travellers and asked them to dig up the ground on that very spot.
+They dug and dug, and after a while they got down to a large stone. Seeing it they
+stopped, and began to blame the leader again, saying "This effort is useless. We`re just wasting our time!" But the tradesman replied, "No no, my friends, if we give up the effort we will all be ruined and our poor animals will die - let us be encouraged!""'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='As he said this, he got down into the hole, put his ear to the stone, and heard the sound
+of flowing water. Immediately, he called over a boy who had been digging and said, "If
+you give up, we will all perish - so take this heavy hammer and strike the rock."
+
+            '
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='The boy lifted the hammer over his head and hit the rock as hard as he could - and he
+himself was the most surprised when the rock spilt in two and a mighty flow of water
+gushed out from under it! Suddenly, all the people were overjoyed. They drank and
+bathed and washed the animals and cooked their food and ate.
+            '
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:layout_marginTop="@dimen/common_margin"
+                android:src="@drawable/ic_day_four_story_image"
+                 />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text='Before they left, they raised a high banner so that other travellers could see it from afar
+and come to the new spring in the middle of the hot-sand desert. Then they continued
+on safely to the end of their journey.
+'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="The moral is: Don't give up too easily - keep on trying until you reach the goal."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

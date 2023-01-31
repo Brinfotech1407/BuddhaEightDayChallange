@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAY 7 RIGHT MINDFULNESS (THE TEACHING)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="This is the practice by which we maintain awareness of our own mind and reactions in order to
+gradually bring them under control, prevent us from falling into destructive patterns, and develop
+deeper awareness of greater truth."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="RIGHT MINDFULNESS"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="Right mindfulness is to be diligently aware, mindful, and attentive with regard to
+(1) the activities of the body (kaya), (2) sensations or feelings (vedana), (3) the
+activities of the mind (citta) and (4) ideas, thoughts, conceptions, and things
+(dhamma)."
+                android:textColor="@color/grayColor"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="The practice of concentration on breathing (anapanasati) is one of the wellknown exercises, connected with the body, for mental development. There are
+several other ways of developing attentiveness in relation to the body as modes of
+meditation."
+                android:textColor="@color/grayColor"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="With regard to sensations and feelings, one should be clearly aware of all forms of
+feelings and sensations, pleasant, unpleasant and neutral, of how they appear and
+disappear within oneself. Concerning the activities of mind, one should be aware
+whether one’s mind is lustful or not, given to hatred or not, deluded or not,
+distracted or concentrated, etc. In this way one should be aware of all movements
+of mind, how they arise and disappear."
+                android:textColor="@color/grayColor"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="As regards ideas, thoughts, conceptions and things, one should know their
+nature, how they appear and disappear, how they are developed, how they are
+suppressed, destroyed, and so on.
+"
+                android:textColor="@color/grayColor"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="These four forms of mental culture or meditation are treated in detail in the
+Satipatthana Sutta (Setting-up of Mindfulness). (Excellent suggestion for
+further study)."
+                android:textColor="@color/grayColor"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="The Buddha says that the Dhamma, the ultimate truth of things, is directly visible,
+timeless, calling out to be approached and seen. He says further that it is always
+available to us, and that the place where it is to be realized is within oneself.[1] The
+ultimate truth, the Dhamma, is not something mysterious and remote, but the truth of
+our own experience. It can be reached only by understanding our experience, by
+penetrating it right through to its foundations. This truth, in order to become liberating
+truth, has to be known directly. It is not enough merely to accept it on faith, to believe
+it on the authority of books or a teacher, or to think it out through deductions and
+inferences. It has to be known by insight, grasped and absorbed by a kind of knowing
+which is also an immediate seeing.
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text='What brings the field of experience into focus and makes it accessible to insight is a
+mental faculty called in Pali sati, usually translated as "mindfulness." Mindfulness is
+presence of mind, attentiveness or awareness. Yet the kind of awareness involved in
+mindfulness differs profoundly from the kind of awareness at work in our usual mode of
+consciousness. All consciousness involves awareness in the sense of a knowing or
+experiencing of an object. But with the practice of mindfulness awareness is applied at
+a special pitch. The mind is deliberately kept at the level of bare attention, a detached
+observation of what is happening within us and around us in the present moment. In
+the practice of right mindfulness the mind is trained to remain in the present, open,
+quiet, and alert, contemplating the present event. All judgements and interpretations
+have to be suspended, or if they occur, just registered and dropped. The task is simply
+to note whatever comes up just as it is occurring, riding the changes of events in the
+way a surfer rides the waves on the sea. The whole process is a way of coming back
+into the present, of standing in the here and now without slipping away, without getting
+swept away by the tides of distracting thoughts. '
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 6 Teaching:"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="Right Effort lays the foundation for a creating a wholesome state of mind and
+lifestyle in order to further spiritual progress. Spiritual advancement will come
+not through fighting with the current state of mind or thoughts, but by utilizing
+prescribed techniques and cultivating good habits. (Doing your own research is
+recommended) here is one excellent reference link "
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:text="https://www.vipassana.com/resources/8fp5.php The Buddha prescribed specific
+techniques to accomplish this."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Right Effort
+
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Right Effort consists of the Four Great Efforts: the effort to avoid, to overcome, to develop,
+and to maintain.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='The definition (the four Right Exertions):'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='"And what, monks, is right effort?'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[i] "There is the case where a monk generates desire, endeavors,
+activates persistence, upholds &amp; exerts his intent for the sake of the
+non-arising of evil, unskillful qualities that have not yet arisen.'
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[ii] "He generates desire, endeavors, activates persistence, upholds
+&amp; exerts his intent for the sake of the abandonment of evil, unskillful
+qualities that have arisen.
+            '
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[iii] "He generates desire, endeavors, activates persistence, upholds
+&amp; exerts his intent for the sake of the arising of skillful qualities that
+have not yet arisen.'
+
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='[iv] "He generates desire, endeavors, activates persistence, upholds
+&amp; exerts his intent for the maintenance, non-confusion, increase,
+plenitude, development, &amp; culmination of skillful qualities that have
+arisen: This, monks, is called right effort.'
+
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text='Right Effort lays the foundation for a creating a wholesome
+state of mind and lifestyle in order to further spiritual
+progress. It`s not through fighting with the current state of
+mind or thoughts, but by utilizing prescribed techniques and cultivating good habits. The Buddha prescribed specific
+techniques to accomplish this. Here is one excellent reference
+link https://www.vipassana.com/resources/8fp5.php (recommended to
+read today as time permits).
+            ..'
+
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

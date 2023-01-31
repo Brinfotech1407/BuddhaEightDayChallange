@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Story day 1"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="KisaGotami and the Parable of the Mustard Seed  "
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Kisa’s only child, a very young son, had died. Unwilling to accept his death, she carried him from neighbor to neighbor and begged for someone to give her medicine to bring him back to life. One of her neighbors told her to go to Buddha, located nearby, and ask him if he had a way to bring her son back to life."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="Bringing the body of her son with her, Kisa found Buddha and pleaded with him to help bring her son back to life. He instructed her to go back to her village and gather mustard seeds from the households of those who have never been touched by death. From those mustard seeds, he promised he would create a medicine to bring her son back to life. Relieved, she went back to her village and began asking her neighbors for mustard seeds."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:src="@drawable/ic_day_one_story_image" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="As early-ripening fruits are in danger of falling, so mortals when born are always in
+danger of dying. Just as the earthen vessels made by the potter end in shards, so is
+the life of mortals. Both young and old, both those who are foolish and those who are
+wise – all fall into the power of death, all are subject to death."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="Of those who depart from this life, overcome by death, a father cannot save his son, nor
+relatives their kinsfolk. While relatives are looking on and lamenting, one by one the
+mortals are carried off like oxen to the slaughter. People die, and their fate after death
+will be according to their deeds. Such are the terms of the world."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:text="Not from weeping nor from grieving will anyone obtain peace of mind. On the contrary,
+his pain will be all the greater, and he will ruin his health. He will make himself sick and
+pale; but dead bodies cannot be restored by his lamentation."
+                android:textSize="@dimen/normalTextSize" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

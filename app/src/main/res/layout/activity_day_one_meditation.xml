@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 1 Meditation"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="This Meditation from Tibetan Buddhist teacher Venerable Sangye Khadro is excellent
+for beginners and more advanced students as well.
+Read and experience the meditation"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meditation on Impermanence (Khadro, 2002)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="The Buddha said that all produced things are impermanent, that is, they change
+moment by moment. “Produced things” doesn’t refer only to things produced in a factory
+like cars or shoes, but includes all things that arise from causes and conditions, such as
+plants, trees, animals and insects, mountains and oceans, as well as our bodies and
+minds. All these things do not remain the same from one moment to the next, but are
+constantly changing. This isn’t just a philosophical theory, but a fact of life; the actual
+way things exist. Through not being aware of or accepting this reality of things, we
+become attached to people and things— wishing them to remain the same and last
+forever— and then become deeply disappointed when they do not. Making ourselves
+familiar with their impermanence enables us be more realistic and frees us from a great
+deal of unnecessary suffering, and this meditation will help us to do that…."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Preparation:  Sit in a comfortable position, with your back straight, and let your body
+relax. Spend some time letting your mind settle down in the present moment. Let go of
+thoughts of the past or the future. Make the decision to keep your mind focused on the
+meditation topic for the duration of the meditation session."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Motivation: When your mind is calm and settled in the present, generate a positive
+motivation for doing the meditation. For example, you can think: “May this meditation
+help bring about greater peace and happiness for all beings,” or: “May this meditation
+be a cause for me to become enlightened so that I can help all beings become free of
+suffering and become enlightened as well.” Body of the meditation Begin the meditation
+by observing your breathing, and slowly become aware of the impermanence of your
+breathing. Each breath is different from the one that came before it, and is different from
+the one that comes after it. You are breathing in different air with each breath, and your
+body is changing with each breath: there are different sensations around the nose and
+inside the nostrils; your lungs expand and contract, your abdomen rises and falls. So in
+each moment, with each breath, there is change, flux and flow. Then think about other
+changes that are taking place in your body in each moment. Think of how your body is
+made of many different parts—arms, legs, head, skin, blood, bones, nerves and
+muscles—and how these parts themselves are made of yet smaller parts, such as cells.
+Be aware of the movement that is going on each moment: the beating of your heart, the
+flow of your blood and the energy of your nerve-impulses. On a more subtle level, cells
+are being born, moving about, dying and disintegrating.
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="@string/day_one_meditation_str"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Conclusion: Conclude the meditation with the thought that it is unrealistic and self-defeating to cling to things as though they were permanent. Whatever is beautiful and
+pleasing will change and eventually disappear, so we can’t expect it to give us lasting
+happiness. Also, whatever is unpleasant or disturbing won’t last forever— it might even
+change for the better!—so there’s no need to be so upset about it or to reject it.
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:text="Dedication: Dedicate the positive energy from doing the meditation that all beings will
+find perfect happiness and freedom from all suffering.
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
