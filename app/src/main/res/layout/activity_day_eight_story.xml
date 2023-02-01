@@ -17,7 +17,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Day 8"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
