@@ -16,6 +16,7 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
                 android:text="Day 8: The Teaching
 "
                 android:textColor="@color/colorBlack"
