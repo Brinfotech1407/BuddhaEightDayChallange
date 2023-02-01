@@ -1,5 +1,6 @@
 package com.brinfotech.feedbacksystem.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -87,94 +88,101 @@ public class ChangeDayScreen extends BaseActivity {
         loutDayOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("1");
+                toggleVisibilityChk("1", true);
             }
         });
 
         loutDayTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("2");
+                toggleVisibilityChk("2", true);
             }
         });
 
         loutDayThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("3");
+                toggleVisibilityChk("3", true);
             }
         });
 
         loutDayFour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("4");
+                toggleVisibilityChk("4", true);
             }
         });
 
         loutDayFive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("5");
+                toggleVisibilityChk("5", true);
             }
         });
 
         loutDaySix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("6");
+                toggleVisibilityChk("6", true);
             }
         });
         loutDaySeven.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("7");
+                toggleVisibilityChk("7", true);
             }
         });
         loutDayEight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggleVisibilityChk("8");
+                toggleVisibilityChk("8", true);
             }
         });
+
+        setDefaultSelectedDate();
     }
 
-    private void toggleVisibilityChk(String selectedDay) {
+    private void setDefaultSelectedDate() {
+        String selectedDay = Prefs.getString(PreferenceKeys.SELECTED_DAY, "1");
+        toggleVisibilityChk(selectedDay, false);
+    }
+
+    private void toggleVisibilityChk(String selectedDay, boolean redirectToScreen) {
 
         switch (selectedDay) {
             case "1":
-                setDayOneSelected(chkDayOne, selectedDay);
+                setDaySelected(chkDayOne, selectedDay, redirectToScreen);
                 break;
             case "2":
-                setDayOneSelected(chkDayTwo, selectedDay);
+                setDaySelected(chkDayTwo, selectedDay, redirectToScreen);
                 break;
 
             case "3":
-                setDayOneSelected(chkDayThree, selectedDay);
+                setDaySelected(chkDayThree, selectedDay, redirectToScreen);
                 break;
             case "4":
-                setDayOneSelected(chkDayFour, selectedDay);
+                setDaySelected(chkDayFour, selectedDay, redirectToScreen);
                 break;
 
             case "5":
-                setDayOneSelected(chkDayFive, selectedDay);
+                setDaySelected(chkDayFive, selectedDay, redirectToScreen);
                 break;
 
             case "6":
-                setDayOneSelected(chkDaySix, selectedDay);
+                setDaySelected(chkDaySix, selectedDay, redirectToScreen);
                 break;
             case "7":
-                setDayOneSelected(chkDaySeven, selectedDay);
+                setDaySelected(chkDaySeven, selectedDay, redirectToScreen);
                 break;
             case "8":
-                setDayOneSelected(chkDayEight, selectedDay);
+                setDaySelected(chkDayEight, selectedDay, redirectToScreen);
                 break;
 
 
         }
     }
 
-    private void setDayOneSelected(ImageView chkDaySelected, String selectedDay) {
+    private void setDaySelected(ImageView chkDaySelected, String selectedDay, boolean redirectToScreen) {
         chkDayOne.setVisibility(View.GONE);
         chkDayTwo.setVisibility(View.GONE);
         chkDayThree.setVisibility(View.GONE);
@@ -187,6 +195,13 @@ public class ChangeDayScreen extends BaseActivity {
         chkDaySelected.setVisibility(View.VISIBLE);
 
         Prefs.putString(PreferenceKeys.SELECTED_DAY, selectedDay);
+
+        if (redirectToScreen) {
+            Intent intent = new Intent(this, DashboardActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+            finish();
+        }
 
     }
 

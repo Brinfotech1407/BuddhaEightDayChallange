@@ -5,7 +5,45 @@
     android:orientation="vertical">
 
 
-    <include layout="@layout/activity_day_one_story"/>
+    <include
+        android:id="@+id/loutDayOneStory"
+        layout="@layout/activity_day_one_story"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/loutDayTwoStory"
+        layout="@layout/activity_day_two_story"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayThreeStory"
+        layout="@layout/activity_day_three_story"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayFourStory"
+        layout="@layout/activity_day_four_story"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayFiveStory"
+        layout="@layout/activity_day_five_story"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDaySixStory"
+        layout="@layout/activity_day_six_story"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDaySevenStory"
+        layout="@layout/activity_day_seven_story"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayEightStory"
+        layout="@layout/activity_day_eight_story"
+        android:visibility="gone" />
 
 
 </LinearLayout>
