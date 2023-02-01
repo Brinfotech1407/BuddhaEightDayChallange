@@ -5,7 +5,45 @@
     android:orientation="vertical">
 
 
-    <include layout="@layout/activity_day_one_exercise"/>
+    <include
+        android:id="@+id/loutDayOneExercise"
+        layout="@layout/activity_day_one_exercise"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayTwoExercise"
+        layout="@layout/activity_day_two_exercise"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayThreeExercise"
+        layout="@layout/activity_day_three_exercise"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayFourExercise"
+        layout="@layout/activity_day_four_meditaion_and_exercise"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayFiveExercise"
+        layout="@layout/activity_day_five_exercise"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDaySixExercise"
+        layout="@layout/activity_day_six_meditation"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDaySevenExercise"
+        layout="@layout/activity_day_seven_exercise"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/loutDayEightExercise"
+        layout="@layout/activity_day_eight_exercise"
+        android:visibility="gone" />
 
 
 </LinearLayout>
