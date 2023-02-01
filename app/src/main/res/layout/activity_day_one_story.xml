@@ -16,7 +16,8 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Story day 1"
+                android:text="Day 1"
+                android:gravity="center"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -24,6 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginTop="@dimen/common_margin"
                 android:text="KisaGotami and the Parable of the Mustard Seed  "
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />

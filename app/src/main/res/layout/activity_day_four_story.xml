@@ -15,7 +15,8 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Story day 4"
+                android:text="Day 4"
+                android:gravity="center"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
