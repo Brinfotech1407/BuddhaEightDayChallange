@@ -21,10 +21,22 @@
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
-            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center"
+                android:text="Right effort (Samma vayama)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Exercise for this day is complete journal for the day"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
