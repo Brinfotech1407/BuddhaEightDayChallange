@@ -43,6 +43,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="When you find yourself engaging in thoughts or emotions that take you away from centeredness
 and peace, make a mental note or even a note on your cell phone or a piece of paper about the
 situation to help you remember later for journaling. Next, take a few moments, as you are able,

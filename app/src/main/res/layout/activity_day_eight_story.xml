@@ -33,6 +33,8 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="One day Buddha was walking from one town to another with few of his followers this was in the
 initial days. While they were travelling they happened to pass by a lake. They stopped there and
@@ -49,6 +51,8 @@ muddy water to Buddha to drink?
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="So he came back and told Buddha: The water there is very muddy, I don’t think it is fit to drink. so,
 the Buddha Said, Let us take a little rest here, by the tree. After about half an hour, again, Buddha
@@ -62,6 +66,8 @@ mud had settled down, and the water above it looked fit to be had."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="so he collected some water in the pot and brought it to the Buddha. The Buddha looked at the water
 and looked at the and then he looked up at the disciple and said: See… you let the water be and the
@@ -73,6 +79,8 @@ mud settled down on its own, you got clear water, it didn’t require any effort
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="The moral of the story, you see in your life too your mind is like that lake, when it is disturbed just
 let it be, give it a little time, it will settle by its own, we don't have to put any effort to calm it down,
@@ -85,6 +93,8 @@ renown comes from a famous four-line teaching attributed to him:"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="This is a very simple and yet extremely powerful parable. This is also a powerful meditation, just to
 leave the mind alone is also a form of true mindfulness and meditation. This is right concentration.

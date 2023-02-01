@@ -16,7 +16,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Day 5 "
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right livelihood (Samma ajiva)"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
@@ -48,6 +61,9 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='Once upon a time, an important adviser to a certain king was on his way to a meeting with the king and
 other advisers. Out of the corner of his eye, he saw a dead mouse by the roadside. He said to those who
@@ -62,6 +78,8 @@ and family."'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='A passerby heard the remark. He knew this was a famous adviser to the king, so he decided to follow his
 words. He picked up the dead mouse by the tail and went off with it. As luck would have it, before he had
 gone even a block, a shopkeeper stopped him. He said, "My cat has been pestering me all morning. I`ll
@@ -73,6 +91,8 @@ gone even a block, a shopkeeper stopped him. He said, "My cat has been pestering
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='With the two copper coins, he bought sweet cakes, and waited by the side of the road with them and
 some water. As he expected, some people who picked flowers for making garlands were returning from
 work. Since they were all hungry and thirsty, they agreed to buy sweet cakes and water for the price of a
@@ -85,10 +105,12 @@ money he bought more sweet cakes and returned the next day to sell to the flower
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="This went on for a while, until one day there was a terrible storm, with heavy rains and high winds. While
 walking by the king's pleasure garden, he saw that many branches had been blown off the trees and were
-            lying all around. So he offered to the king's gardener that he would clear it all away for him, if he could
-            keep the branches. The lazy gardener quickly agreed."
+lying all around. So he offered to the king's gardener that he would clear it all away for him, if he could
+ keep the branches. The lazy gardener quickly agreed."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -96,6 +118,8 @@ walking by the king's pleasure garden, he saw that many branches had been blown 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='The man found some children playing in a park across the street. They were glad to collect all the
 branches and brush at the entrance to the pleasure garden, for the price of just one sweet cake for each
 child.
@@ -107,6 +131,8 @@ child.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Along came the king's potter, who was always on the lookout for firewood for his glazing oven. When he
             saw the piles of wood the children had just collected, he paid the man a handsome price for it. He even
             threw into the bargain some of his pots.
@@ -118,6 +144,8 @@ child.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='With his profits from selling the flowers and the firewood, the man opened up a refreshment shop. One
 day all the local grass mowers, who were on their way into town, stopped in his shop. He gave them free
 sweet cakes and drinks. They were surprised at his generosity and asked, "What can we do for you?" He
@@ -129,6 +157,8 @@ said there was nothing for them to do now, but he would let them know in the fut
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='A week later, he heard that a horse dealer was coming to the city with 500 horses to sell. So he got in
 touch with the grass mowers and told each of them to give him a bundle of grass. He told them not to sell
 any grass to the horse dealer until he had sold his. In this way he got a very good price.
@@ -140,6 +170,8 @@ any grass to the horse dealer until he had sold his. In this way he got a very g
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Time passed until one day, in his refreshment shop, some customers told him that a new ship from a
 foreign country had just anchored in the port. He saw this to be the opportunity he had been waiting for.
 He thought and thought until he came up with a good business plan."
@@ -150,6 +182,8 @@ He thought and thought until he came up with a good business plan."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="First, he went to a jeweler friend of his and paid a low price for a very valuable gold ring, with a beautiful
 red ruby in it. He knew that the foreign ship was from a country that had no rubies of its own, where gold
 too was expensive. So he gave the wonderful ring to the captain of the ship as an advance on his
@@ -163,6 +197,8 @@ commission for sending customers to them"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Acting as a middle man in this way, after several ships came into port, the man became very rich. Being
 pleased with his success, he also remembered that it had all started with the words of the king's wise
 adviser. So he decided to give him a gift of 100,000 gold coins. This was half his entire wealth. After
@@ -175,6 +211,8 @@ humble thanks."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='The adviser was amazed, and he asked, "How did you earn so much wealth to afford such a generous
 gift?" The man told him it had all started with the adviser`s own words not so long ago. They had led him
                 to a dead mouse, a hungry cat, sweet cakes, bunches of flowers, storm damaged tree branches, children
@@ -187,6 +225,8 @@ gift?" The man told him it had all started with the adviser`s own words not so l
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='Hearing all this, the royal adviser thought to himself, "It would not be good to lose the talents of such an
 energetic man. I too have much wealth, as well as my beloved only daughter. As this man is single, he
 deserves to marry her. Then he can inherit my wealth in addition to his own, and my daughter will be well
@@ -199,6 +239,8 @@ cared for."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='This all came to pass, and after the wise adviser died, the one who had followed his advice became the
 richest man in the city. The king appointed him to the adviser`s position. Throughout his remaining life, he
 generously gave his money for the happiness and well being of many people.
