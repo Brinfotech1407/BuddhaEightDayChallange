@@ -15,8 +15,22 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="THE TEACHING DAY 4: RIGHT ACTION"
+                android:text="DAY 4"
                 android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right action (Samma kammanta)"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -25,6 +39,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Even though this story talks about courageous and virtuous action, and it doesn't speak
 to many other virtuous actions, it is a good one because it shows the kind of action that
 is required to attain spiritual advancement and liberation. The power of perseverance

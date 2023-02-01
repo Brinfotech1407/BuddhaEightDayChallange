@@ -16,6 +16,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Day 4"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center"
                 android:textColor="@color/colorBlack"
@@ -24,7 +26,21 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Right action (Samma kammanta)"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginBottom="@dimen/common_margin"
                 android:gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Finding a New Spring"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
@@ -34,6 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="[Perseverance]"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -43,6 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Once upon a time a certain tradesman was leading a caravan to another country to sell
 his goods. Along the way they came to the edge of a severe hot-sand desert. They
 asked about, and found that during the day time the sun heats up the fine sand until it's
@@ -58,6 +78,8 @@ across the desert.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="A couple of nights later, after eating their evening meal, and waiting for the sand to cool,
 they started out again. Later that night the desert guide, who was driving the first cart,
 saw from the stars that they were getting close to the other side of the desert. He had
@@ -72,6 +94,8 @@ of course, couldn't tell directions by reading the stars, gradually turned to th
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='By then it was morning, and the people realized they were back at the same spot they`d
 camped at the day before. They lost heart and began to cry about their condition. Since
 the desert crossing was supposed to be over by now, they had no more water and were
@@ -84,6 +108,8 @@ desert guide - "We can do nothing without water!", they complained.'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='Then the tradesman thought to himself, "If I lose courage now, in the middle of this
 disastrous situation, my leadership has no meaning. If I fall to weeping and regretting
 this misfortune, and do nothing, all these goods and bullocks and even the lives of the
@@ -96,6 +122,8 @@ began walking back and forth, trying to think out a plan to save them all.'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='Remaining alert, out of the corner of his eye, he noticed a small clump of grass. He
 thought, "Without water, no plant could live in this desert." So he called over the most
 energetic of his fellow travellers and asked them to dig up the ground on that very spot.
@@ -108,6 +136,8 @@ stopped, and began to blame the leader again, saying "This effort is useless. We
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='As he said this, he got down into the hole, put his ear to the stone, and heard the sound
 of flowing water. Immediately, he called over a boy who had been digging and said, "If
 you give up, we will all perish - so take this heavy hammer and strike the rock."
@@ -120,6 +150,8 @@ you give up, we will all perish - so take this heavy hammer and strike the rock.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='The boy lifted the hammer over his head and hit the rock as hard as he could - and he
 himself was the most surprised when the rock spilt in two and a mighty flow of water
 gushed out from under it! Suddenly, all the people were overjoyed. They drank and
@@ -141,6 +173,8 @@ bathed and washed the animals and cooked their food and ate.
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='Before they left, they raised a high banner so that other travellers could see it from afar
 and come to the new spring in the middle of the hot-sand desert. Then they continued
 on safely to the end of their journey.
@@ -152,6 +186,8 @@ on safely to the end of their journey.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The moral is: Don't give up too easily - keep on trying until you reach the goal."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
