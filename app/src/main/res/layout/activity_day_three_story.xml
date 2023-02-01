@@ -21,11 +21,25 @@
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right speech (Samma vaca)"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Next time someone starts to spread gossip, think of this:
 "
                 android:textColor="@color/colorBlack"
@@ -36,6 +50,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="In ancient Greece (469 - 399 BC), Socrates was widely lauded for his wisdom.
 "
                 android:textColor="@color/colorBlack"
@@ -45,6 +62,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='One day the great philosopher came upon an acquaintance who ran up to him excitedly and
 said, "Socrates, do you know what I just heard about one of your students?"'
                 android:textColor="@color/colorBlack"
@@ -55,6 +75,9 @@ said, "Socrates, do you know what I just heard about one of your students?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Wait a moment,' Socrates replied. 'Before you tell me I'd like you to pass a little test. It’s called
 the Triple Filter Test.'"
                 android:textColor="@color/colorBlack"
@@ -64,6 +87,9 @@ the Triple Filter Test.'"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='"Triple filter?"'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -72,6 +98,9 @@ the Triple Filter Test.'"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='"That`s right," Socrates continued. "Before you talk to me about my student let`s take a m! oment to filter what you`re going to say. The first filter is Truth. Have you made absolutely sure
 that what you are about to tell me is true?"'
                 android:textColor="@color/colorBlack"
@@ -81,6 +110,9 @@ that what you are about to tell me is true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='No," the man said, "actually I just heard about it and..."
             '
                 android:textColor="@color/colorBlack"
@@ -90,6 +122,9 @@ that what you are about to tell me is true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='"All right," said Socrates. "So you don`t really know if it`s true or not. Now let`s try the second
             filter, the filter of Goodness. Is what you are about to tell me about my student something good?"
             '
@@ -100,6 +135,9 @@ that what you are about to tell me is true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='"No, on the contrary..."'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -108,6 +146,10 @@ that what you are about to tell me is true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+
                 android:text='"So," Socrates continued, "you want to tell me something bad about him, even though you`re
 not certain it`s true?"'
                 android:textColor="@color/colorBlack"
@@ -117,6 +159,9 @@ not certain it`s true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The man shrugged, a little embarrassed."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -125,6 +170,9 @@ not certain it`s true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='Socrates continued. "You may still pass the test though,because there is a third filter - the filter
             of Usefulness. Is what you want to tell me about my student going to be useful to me?"
 '
@@ -135,6 +183,9 @@ not certain it`s true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="'No, not really...'
 "
                 android:textColor="@color/colorBlack"
@@ -144,6 +195,9 @@ not certain it`s true?"'
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text='"Well," concluded Socrates, "if what you want to tell me is neither True nor Good nor even
             Useful, why tell it to me at all?"
            

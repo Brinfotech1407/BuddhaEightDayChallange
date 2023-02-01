@@ -15,8 +15,22 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Exercise day 3"
+                android:text="Day 3"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right speech (Samma vaca)"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -25,6 +39,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="During your day of silence note the effect practicing silence has on you. Try to be aware
 and take a note of anything you feel is significant to remember from this exercise.
 "
