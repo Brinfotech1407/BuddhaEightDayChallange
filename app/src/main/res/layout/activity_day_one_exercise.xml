@@ -15,16 +15,34 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Day 1 Exercise"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text="Day 1"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text=" Right understanding (Samma ditthi)
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
 
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="This Meditation from Tibetan Buddhist teacher Venerable Sangye Khadro is excellent
 for beginners and more advanced students as well.
 Read and experience the meditation"
@@ -36,6 +54,8 @@ Read and experience the meditation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="I am aware of feeling sad, angry
 envious, offended, loving etc.. "
                 android:textColor="@color/colorBlack"
@@ -45,6 +65,8 @@ envious, offended, loving etc.. "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Remember the experiences that led up to this reaction.
 "
                 android:textColor="@color/colorBlack"

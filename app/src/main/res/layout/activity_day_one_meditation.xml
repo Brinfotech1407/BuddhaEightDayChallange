@@ -15,8 +15,23 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Day 1 Meditation"
+                android:text="Day 1"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text=" Right understanding (Samma ditthi)
+"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -25,6 +40,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="This Meditation from Tibetan Buddhist teacher Venerable Sangye Khadro is excellent
 for beginners and more advanced students as well.
 Read and experience the meditation"
@@ -34,6 +51,8 @@ Read and experience the meditation"
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Meditation on Impermanence (Khadro, 2002)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
@@ -42,6 +61,8 @@ Read and experience the meditation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The Buddha said that all produced things are impermanent, that is, they change
 moment by moment. “Produced things” doesn’t refer only to things produced in a factory
 like cars or shoes, but includes all things that arise from causes and conditions, such as
@@ -62,6 +83,8 @@ deal of unnecessary suffering, and this meditation will help us to do that…."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Preparation:  Sit in a comfortable position, with your back straight, and let your body
 relax. Spend some time letting your mind settle down in the present moment. Let go of
 thoughts of the past or the future. Make the decision to keep your mind focused on the
@@ -74,6 +97,8 @@ meditation topic for the duration of the meditation session."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Motivation: When your mind is calm and settled in the present, generate a positive
 motivation for doing the meditation. For example, you can think: “May this meditation
 help bring about greater peace and happiness for all beings,” or: “May this meditation
@@ -99,6 +124,8 @@ are being born, moving about, dying and disintegrating.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="@string/day_one_meditation_str"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -107,6 +134,8 @@ are being born, moving about, dying and disintegrating.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Conclusion: Conclude the meditation with the thought that it is unrealistic and self-defeating to cling to things as though they were permanent. Whatever is beautiful and
 pleasing will change and eventually disappear, so we can’t expect it to give us lasting
 happiness. Also, whatever is unpleasant or disturbing won’t last forever— it might even
@@ -118,6 +147,8 @@ change for the better!—so there’s no need to be so upset about it or to reje
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Dedication: Dedicate the positive energy from doing the meditation that all beings will
 find perfect happiness and freedom from all suffering.
 "

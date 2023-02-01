@@ -25,8 +25,22 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text=" Right understanding (Samma ditthi)
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="KisaGotami and the Parable of the Mustard Seed  "
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
@@ -35,6 +49,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Kisa’s only child, a very young son, had died. Unwilling to accept his death, she carried him from neighbor to neighbor and begged for someone to give her medicine to bring him back to life. One of her neighbors told her to go to Buddha, located nearby, and ask him if he had a way to bring her son back to life."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -44,6 +60,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Bringing the body of her son with her, Kisa found Buddha and pleaded with him to help bring her son back to life. He instructed her to go back to her village and gather mustard seeds from the households of those who have never been touched by death. From those mustard seeds, he promised he would create a medicine to bring her son back to life. Relieved, she went back to her village and began asking her neighbors for mustard seeds."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
@@ -59,6 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="As early-ripening fruits are in danger of falling, so mortals when born are always in
 danger of dying. Just as the earthen vessels made by the potter end in shards, so is
 the life of mortals. Both young and old, both those who are foolish and those who are
@@ -71,6 +91,8 @@ wise – all fall into the power of death, all are subject to death."
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Of those who depart from this life, overcome by death, a father cannot save his son, nor
 relatives their kinsfolk. While relatives are looking on and lamenting, one by one the
 mortals are carried off like oxen to the slaughter. People die, and their fate after death
@@ -83,6 +105,8 @@ will be according to their deeds. Such are the terms of the world."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Not from weeping nor from grieving will anyone obtain peace of mind. On the contrary,
 his pain will be all the greater, and he will ruin his health. He will make himself sick and
