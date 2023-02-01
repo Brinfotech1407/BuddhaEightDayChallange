@@ -24,6 +24,20 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Right thought (Samma sankappa)"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The Monk and the Prostitute"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
@@ -33,6 +47,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="This is actually a Indian story but it illustrates our point very well and, or course, is very
 interesting so let’s enjoy:
 "
@@ -44,6 +61,9 @@ interesting so let’s enjoy:
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="A monk lived near the temple of Shiva. In the house opposite lived a prostitute. Noticing
 the large number of men who visited her, the monk decided to speak to her."
                 android:textColor="@color/colorBlack"
@@ -53,6 +73,9 @@ the large number of men who visited her, the monk decided to speak to her."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="‘You are a great sinner,’ he said sternly. ‘You reveal your lack of respect for God every
 day and every night. Do you never stop to think about what will happen to you after your
 death?’
@@ -65,6 +88,9 @@ death?’
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The poor woman was very shaken by what the monk said. She prayed to God out of
 genuine repentance, begging His forgiveness. She also asked the Almighty to help her
 to find another means of earning her living.
@@ -77,6 +103,9 @@ to find another means of earning her living.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="But she could find no other work and, after going hungry for a week, she returned to
 prostitution.
 
@@ -86,6 +115,9 @@ prostitution.
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
                 android:text="But each time she gave her body to a stranger, she would pray to the Lord for
@@ -97,6 +129,9 @@ forgiveness.
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
                 android:text="Annoyed that his advice had had no effect, the monk thought to himself:
@@ -108,6 +143,9 @@ forgiveness.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="‘From now on, I’m going to keep a count of the number of men who go into that house,
 until the day the sinner dies.’
@@ -119,6 +157,9 @@ until the day the sinner dies.’
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="And from that moment on, he did nothing but watch the comings and goings at the
 prostitute’s house, and for each man who went in, he added a stone to a pile of stones
 by his side.
@@ -130,6 +171,9 @@ by his side.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="After some time, the monk again spoke to the prostitute and said:
 
 "
@@ -140,6 +184,9 @@ by his side.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="‘You see that pile of stones? Each stone represents a mortal sin committed by you,
 despite all my warnings. I say to you once more: do not sin again!’
 
@@ -151,6 +198,9 @@ despite all my warnings. I say to you once more: do not sin again!’
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Seeing how her sins accumulated, the woman began to tremble. Returning home, she
 wept tears of real repentance and prayed to God:
 "
@@ -161,6 +211,9 @@ wept tears of real repentance and prayed to God:
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="‘O Lord, when will Your mercy free me from this wretched life?’
 
 "
@@ -171,6 +224,9 @@ wept tears of real repentance and prayed to God:
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Her prayer was heard. That same day, the angel of death came to her house and
 carried her off. On God’s orders, the angel crossed the street and took the monk with
 him too.
@@ -184,6 +240,9 @@ him too.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The prostitute’s soul went straight up to Heaven, while the devils bore the monk down
 into Hell. They passed each other on the way, and when the monk saw what was
 happening, he cried out:
@@ -197,6 +256,9 @@ happening, he cried out:
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="‘Is this Your justice, O Lord? I spent my whole life in devotion and poverty and now I am
 carried off into Hell, while that prostitute, who lived all her life steeped in sin, is borne
 aloft up to Heaven!’
@@ -209,6 +271,9 @@ aloft up to Heaven!’
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Hearing this, one of the angels replied:
 
 "
@@ -219,6 +284,9 @@ aloft up to Heaven!’
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Results are always just. You thought that God’s love meant judging the behavior of your
 neighbor. While you filled your heart with the impurity of another’s sin, this woman
 prayed fervently day and night. Her soul is so light after all the tears she has shed that

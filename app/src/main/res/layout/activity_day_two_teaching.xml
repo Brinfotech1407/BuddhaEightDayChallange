@@ -15,16 +15,34 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Day 2 Teaching"
+                android:text="Day 2"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Right thought (Samma sankappa)"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
 
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="Don't Judge. By judging others we only hurt ourselves. By examining our own faults
 before accusing others we improve ourselves AND set a good example for others.
 
