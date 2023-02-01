@@ -2,29 +2,29 @@ package com.brinfotech.feedbacksystem.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
+import android.view.View;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.brinfotech.feedbacksystem.R;
-import com.brinfotech.feedbacksystem.helpers.ConstantClass;
 
 public class SplashScreen extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-
-        new Handler().postDelayed(new Runnable() {
+        Button btnNext = findViewById(R.id.btnNext);
+        btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-
+            public void onClick(View view) {
                 Intent mainIntent = new Intent(SplashScreen.this, DashboardActivity.class);
                 startActivity(mainIntent);
                 finish();
-
             }
-        }, ConstantClass.SPLASH_TIME);
+        });
     }
 
 }
