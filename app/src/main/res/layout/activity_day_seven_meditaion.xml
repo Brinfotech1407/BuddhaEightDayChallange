@@ -16,8 +16,23 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Day 7 Meditation"
+                android:text="Day 7"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text=" Right mindfulness (Samma sati)
+"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -25,7 +40,9 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Today's subject is mindfulness therefore today's meditiation is again a mindfulness
 meditation practice. "
@@ -35,7 +52,9 @@ meditation practice. "
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Take 15 minutes (minimum) in the morning and evening to sit in a quiet place. Sit
 either in a chair with a straight back or on the floor on a matt. If you can sit in lotus
@@ -47,7 +66,9 @@ posture that is very good, half lotus posture, vajra posture (excellent) on a za
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Focus on the point between your eyebrows. Simply watch your breath come in and out
 as you breath through your nose. Count each breath as it goes out. If thoughts arise

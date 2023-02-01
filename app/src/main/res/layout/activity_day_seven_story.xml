@@ -25,6 +25,18 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text=" Right mindfulness (Samma sati)
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Who Was Bodhidharma? "
                 android:textColor="@color/colorBlack"
@@ -33,6 +45,9 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Bodhidharma meditating. Artwork by Jin Nong (1687-1763). Courtesy of Freer | Sackler.
 "
@@ -42,8 +57,10 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="The legendary founder of Zen in China famously taught a dictum
 long-regarded as the taproot of Zen, “Point directly at the human
 mind, see its nature, and become Buddha.”"
@@ -53,7 +70,9 @@ mind, see its nature, and become Buddha.”"
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Bodhidharma is considered the founder of Zen Buddhism in China. While
 much of his biography may be the stuff of legend and his historicity is still in
@@ -67,7 +86,9 @@ Zen tradition as anyone else."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="But with many masters predating him, why is Bodhidharma considered the
 first ancestor of Chinese Zen? While there were many Buddhist monks from
@@ -80,7 +101,9 @@ renown comes from a famous four-line teaching attributed to him:"
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="A special transmission outside the scriptures,"
                 android:textColor="@color/colorBlack"
@@ -90,7 +113,9 @@ renown comes from a famous four-line teaching attributed to him:"
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Not depending on words and letters;"
                 android:textColor="@color/colorBlack"
@@ -99,7 +124,9 @@ renown comes from a famous four-line teaching attributed to him:"
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Directly pointing to the mind,"
                 android:textColor="@color/colorBlack"
@@ -108,7 +135,9 @@ renown comes from a famous four-line teaching attributed to him:"
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Seeing into one’s true nature and attaining buddhahood."
                 android:textColor="@color/colorBlack"
@@ -117,7 +146,9 @@ renown comes from a famous four-line teaching attributed to him:"
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="This dictum has long been regarded as the taproot of Zen, and teachers from
 early times until now have credited it to Bodhidharma. While what is left of
@@ -130,7 +161,9 @@ to him is full of teachings on observing the nature of mind."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="It is said that Bodhidharma was born as the third prince of an Indian
 kingdom. Little is known about his youth, but he eventually immigrated to
@@ -146,7 +179,9 @@ route, he was besieged by bandits.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Eventually, Bodhidharma arrived and settled in China where he met Emperor
 Wu of the Liang dynasty, a devout Buddhist. Their famous meeting is recorded
@@ -161,7 +196,9 @@ The exchange went something like this:
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="“How do I understand the merit I have accrued in building temples and
 making donations to monks?” the emperor asked.
@@ -172,7 +209,9 @@ making donations to monks?” the emperor asked.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Bodhidharma replied, “There is no merit.”
 "
@@ -182,7 +221,9 @@ making donations to monks?” the emperor asked.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="The emperor was confused because he understood karma to mean good begets
 good and evil begets evil, but Bodhidharma knew his intentions were not
@@ -194,7 +235,9 @@ altruistic. The emperor made donations to improve karma and boost his ego.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="“If there is no merit, then what is the essence of Buddhism?” The emperor
 asked.
@@ -205,7 +248,9 @@ asked.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="“Empty, nothing holy,” Bodhidharma said.
 "
@@ -215,7 +260,9 @@ asked.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Shocked, the emperor asked, “Who addresses me thus?”
 
@@ -226,7 +273,9 @@ asked.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="“I don’t know,” Bodhidharma told him.
 "
@@ -236,7 +285,9 @@ asked.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="The emperor wasn’t impressed with these answers and Bodhidharma was
 disgruntled by the emperor’s failure to understand the profundity of his
@@ -249,7 +300,9 @@ teachings. He left the emperor’s court, and they never spoke again.
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:src="@drawable/ic_day_seven_story_first"
                 />
@@ -257,7 +310,9 @@ teachings. He left the emperor’s court, and they never spoke again.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Bodhidharma traveled to the monastery of Shaolinsi on Songshan mountain in
 northern China. Legend holds that along the way, he crossed the Yangtze
@@ -271,7 +326,9 @@ River on a reed, a scene frequently depicted in East Asian art.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="After arriving at the monastery, Bodhidharma sat in meditation for nine years.
 It is said that he sat facing a wall the entire time, letting his legs wither away.
@@ -289,14 +346,18 @@ Entrances and Four Practices, references the practice of “wallcontemplation.�
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:src="@drawable/ic_day_seven_story_second" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Three views of a Daruma doll. Photo by Christopher Woodrich."
                 android:textColor="@color/grayColor"
@@ -305,7 +366,9 @@ Entrances and Four Practices, references the practice of “wallcontemplation.�
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="In many accounts, a Chinese monk called Huike came to Bodhidharma on a
 cold winter’s day while Bodhidharma was sitting and pleaded to become his
@@ -319,7 +382,9 @@ asked Huike what he sought from him."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='“Please pacify my mind,” he pleaded.'
                 android:textColor="@color/colorBlack"
@@ -328,7 +393,9 @@ asked Huike what he sought from him."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='Bodhidharma told Huike to bring him his mind and he would pacify it.'
                 android:textColor="@color/colorBlack"
@@ -337,7 +404,9 @@ asked Huike what he sought from him."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='After a long moment, Huike said, “I can’t find my mind.”'
                 android:textColor="@color/colorBlack"
@@ -346,7 +415,9 @@ asked Huike what he sought from him."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='“See,” he said, “I have already pacified it.” After hearing this, Huike became
 enlightened and joined Bodhidharma as his first disciple.'
@@ -356,7 +427,9 @@ enlightened and joined Bodhidharma as his first disciple.'
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='It is said that in his old age, Bodhidharma gathered four of his enlightened
 disciples and asked them to convey their understanding of the dharma. While
@@ -369,7 +442,9 @@ formally named Huike his dharma heir.'
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='This is historically known as the first Zen transmission from Bodhidharma—
 considered the founder and first patriarch of Zen—to its the second patriarch,
@@ -382,7 +457,9 @@ continues today.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='Only two generations after Bodhidharma, his message is said to have been
 carried to Vietnam. Zen teachings thereafter spread throughout China and
@@ -397,7 +474,9 @@ seven hundred years after the death of Bodhidharma.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='Lions Roar Magazine BY HALEIGH ATWOOD| JANUARY 22, 2019
 '

@@ -16,8 +16,23 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
-                android:text="Day 7 (Exercise)
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text="Day 7
+"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text=" Right mindfulness (Samma sati)
 "
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
@@ -26,7 +41,9 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="During the day note any tendencies within your habitual patterns of thinking that you
 feel could lead to destructive habits, such as lust :), anger, vengeful, scheming, taking

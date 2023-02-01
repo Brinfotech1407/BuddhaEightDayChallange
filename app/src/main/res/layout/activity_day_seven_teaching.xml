@@ -16,8 +16,23 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="DAY 7 RIGHT MINDFULNESS (THE TEACHING)"
+                android:text="DAY 7"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/titleTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text="Right mindfulness (Samma sati)
+"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -25,8 +40,10 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/common_margin"
                 android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:text="This is the practice by which we maintain awareness of our own mind and reactions in order to
 gradually bring them under control, prevent us from falling into destructive patterns, and develop
 deeper awareness of greater truth."
@@ -36,7 +53,9 @@ deeper awareness of greater truth."
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="RIGHT MINDFULNESS"
                 android:textColor="@color/colorBlack"
@@ -45,7 +64,9 @@ deeper awareness of greater truth."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Right mindfulness is to be diligently aware, mindful, and attentive with regard to
 (1) the activities of the body (kaya), (2) sensations or feelings (vedana), (3) the
@@ -58,7 +79,9 @@ activities of the mind (citta) and (4) ideas, thoughts, conceptions, and things
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="The practice of concentration on breathing (anapanasati) is one of the wellknown exercises, connected with the body, for mental development. There are
 several other ways of developing attentiveness in relation to the body as modes of
@@ -69,7 +92,9 @@ meditation."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="With regard to sensations and feelings, one should be clearly aware of all forms of
 feelings and sensations, pleasant, unpleasant and neutral, of how they appear and
@@ -83,7 +108,9 @@ of mind, how they arise and disappear."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="As regards ideas, thoughts, conceptions and things, one should know their
 nature, how they appear and disappear, how they are developed, how they are
@@ -95,7 +122,9 @@ suppressed, destroyed, and so on.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="These four forms of mental culture or meditation are treated in detail in the
 Satipatthana Sutta (Setting-up of Mindfulness). (Excellent suggestion for
@@ -107,7 +136,9 @@ further study)."
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="The Buddha says that the Dhamma, the ultimate truth of things, is directly visible,
 timeless, calling out to be approached and seen. He says further that it is always
@@ -126,7 +157,9 @@ which is also an immediate seeing.
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text='What brings the field of experience into focus and makes it accessible to insight is a
 mental faculty called in Pali sati, usually translated as "mindfulness." Mindfulness is
