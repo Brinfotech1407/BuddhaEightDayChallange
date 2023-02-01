@@ -32,7 +32,7 @@
 
     <include
         android:id="@+id/loutDaySixExercise"
-        layout="@layout/activity_day_six_meditation"
+        layout="@layout/activity_day_six_exercise"
         android:visibility="gone" />
 
     <include
