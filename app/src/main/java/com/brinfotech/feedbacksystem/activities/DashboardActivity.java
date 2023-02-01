@@ -1,5 +1,6 @@
 package com.brinfotech.feedbacksystem.activities;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -9,6 +10,8 @@ import com.brinfotech.feedbacksystem.base.BaseActivity;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.brinfotech.feedbacksystem.R;
 import com.brinfotech.feedbacksystem.fragment.ExerciseFragment;
@@ -27,6 +30,8 @@ public class DashboardActivity extends BaseActivity {
     @BindView(R.id.bottom_navigation)
     AHBottomNavigation bottomNavigationView;
 
+    @BindView(R.id.imgSettings)
+    ImageView imgSettings;
 
 
     private ArrayList<AHBottomNavigationItem> bottomNavigationItems = new ArrayList<>();
@@ -39,6 +44,13 @@ public class DashboardActivity extends BaseActivity {
         displayHomeFragment();
 
         setupBottomMenuNavigationView();
+
+        imgSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), SettingActivity.class));
+            }
+        });
     }
 
     @Override
