@@ -135,13 +135,5 @@ public abstract class BaseFragment extends Fragment {
             }
         });
 
-        imgSettings.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-
-
     }
 }

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/app_bar_settings" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/common_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/loutDayOne"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 1 Right Understanding (Samma ditthi)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDayOne"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDayTwo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 2 Right Thought (Samma sankappa)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDayTwo"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDayThree"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 3 Right Speech (Samma vaca)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDayThree"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDayFour"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 4 Right Action (Samma Kammanta)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDayFour"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDayFive"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 5 Right livelihood (Samma ajiva)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDayFive"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDaySix"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 6 Right effort (Samma vayama)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+            <ImageView
+                android:id="@+id/chkDaySix"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDaySeven"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 7 Right mindfulness (Samma sati)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDaySeven"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+        <LinearLayout
+            android:id="@+id/loutDayEight"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:orientation="horizontal">
+
+            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|start"
+                android:text="Day 8 Right Concentration (Samma samadhi)"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <ImageView
+                android:id="@+id/chkDayEight"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_10sdp"
+                android:visibility="gone"
+                android:tint="@color/colorBlue"
+                app:srcCompat="@drawable/ic_check_circle" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/grayColor" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,23 +1,31 @@
 package com.brinfotech.feedbacksystem.base;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
+import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
+import com.brinfotech.feedbacksystem.R;
+import com.brinfotech.feedbacksystem.activities.SettingActivity;
 import com.brinfotech.feedbacksystem.customClasses.ProgressLoader;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
-    private ProgressLoader loader;
-
     Unbinder unbinder = null;
+    @Nullable
+    @BindView(R.id.imgSettings)
+    ImageView imgSettings;
+    private ProgressLoader loader;
 
     @Override
     protected void onResume() {
@@ -68,7 +76,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     public void hideSoftKeyboard() {
-        InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Activity.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
     }
 
