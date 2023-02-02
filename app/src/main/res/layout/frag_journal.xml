@@ -1,15 +1,486 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Journal Fragment" />
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnSave">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDayOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 1"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDayOne"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDayOne"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDayOneJournal"
+                        layout="@layout/activity_day_one_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDayTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 2"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDayTwo"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDayTwo"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDayTwoJournal"
+                        layout="@layout/activity_day_two_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDayThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 3"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDayThree"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDayThree"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDayThreeJournal"
+                        layout="@layout/activity_day_three_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDayFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 4"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDayFour"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDayFour"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDayFourJournal"
+                        layout="@layout/activity_day_four_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDayFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 5"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDayFive"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDayFive"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDayFiveJournal"
+                        layout="@layout/activity_day_five_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDaySix"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 6"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDaySix"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDaySix"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDaySixJournal"
+                        layout="@layout/activity_day_six_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDaySeven"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 7"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDaySeven"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDaySeven"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDaySevenJournal"
+                        layout="@layout/activity_day_seven_journal"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/loutDayEight"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:orientation="horizontal">
+
+                        <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|start"
+                            android:text="DAY 8"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/normalTextSize" />
+
+                        <ImageView
+                            android:id="@+id/arrowDayEight"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:rotation="270"
+                            android:tint="@color/colorBlue"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+                        <ImageView
+                            android:id="@+id/lockDayEight"
+                            android:layout_width="@dimen/_45sdp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:padding="@dimen/_10sdp"
+                            android:tint="@color/colorBlue"
+                            android:visibility="gone"
+                            app:srcCompat="@drawable/ic_lock" />
+
+
+                    </LinearLayout>
+
+                    <include
+                        android:id="@+id/loutDayEightJournal"
+                        layout="@layout/activity_day_eight_journal"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/grayColor" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_border_color"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/titleTextSize"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
 
 
 </LinearLayout>

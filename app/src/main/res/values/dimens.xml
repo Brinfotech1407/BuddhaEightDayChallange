@@ -9,4 +9,5 @@
     <dimen name="titleTextSize">@dimen/_16sdp</dimen>
     <dimen name="normalTextSize">@dimen/_13sdp</dimen>
     <dimen name="common_margin">8dp</dimen>
+    <dimen name="journalEditTextHeight">@dimen/_100sdp</dimen>
 </resources>

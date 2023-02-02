@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/common_margin"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What are some of your thoughts, feelings and insights about today's teaching:"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayOneQuestionOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="While undergoing today's daily exercise give at least two examples of emotional reactions you noticed."
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:text="What were the events or thoughts that led up to your emotional reaction?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:text="Do you believe it helped you in any way to be aware and watch your emotional reaction?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayOneQuestionTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add your own personal notes of any kind"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayOneQuestionThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Did you feel anything while doing the meditation? Was it different from what you expected? if so how was it different?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayOneQuestionFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What was your reaction to the Mustard Seed story?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayOneQuestionFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

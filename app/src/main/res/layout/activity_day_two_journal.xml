@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/common_margin"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Write about your day and mention at least three times that you became aware of a negative thought or judgement about someone else"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What were the circumstances surrounding the event?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Why do you think you had the thought or judgement that you did?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Did you have any thoughts regarding the meditation? "
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='What happened when you asked yourself "who is breathing?"'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='Do you believe thoughts are connected to feelings or emotions? How?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionSix"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='What came first:  the chicken or the egg?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayTwoQuestionSeven"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

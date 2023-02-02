@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/common_margin"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reflecting on today's Story, please comment upon why you think Boddhidharma was facing a wall and refused to waver from this for such a long period of 9 years?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDaySevenQuestionOne"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reflecting on the story again, please comment upon why you think Boddhidharma cut his eyelids off?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+
+                <EditText
+                    android:id="@+id/edtDaySevenQuestionTwo"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reflecting on today's Exercise, what are 3 incidences from today that you noted you had thoughts that you feel could feed destructive patterns. Remember this exercise is for you only so don't censor your answers."
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDaySevenQuestionThree"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Write about your experience with today's Meditation."
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDaySevenQuestionFour"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

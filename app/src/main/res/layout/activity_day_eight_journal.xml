@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/common_margin"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='List several of the situations that drew you off center today and write about your experience in working with those situations. Note the ones that are easiest for you to deal with and the others that may require more time to master. In this manner one can become more aware of "Samskaras" or habitual patterns of being and thinking that are carried from previous incarnations or that we picked up from our parents or families. It is a method of breaking up those patterns, and growing freer and deeper in the truth.'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayEightQuestionOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='Refer back to how you felt before you started the 8 day Dharma challenge. Refer to your previous Journal entries, and discuss the points or techniques that have affected you the most during the challenge that you believe will carry you forward in your practice and in your daily life. Note these, your favorite techniques here, and review them often.'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+
+                <EditText
+                    android:id="@+id/edtDayEightQuestionTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/journalEditTextHeight"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

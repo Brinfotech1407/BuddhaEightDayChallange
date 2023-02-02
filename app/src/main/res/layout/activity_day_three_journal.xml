@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/common_margin"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Could you relate in any way to the story for today? "
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionOne"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Do you like to engage in gossip? How do you feel when you do it?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionTwo"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have you ever had people gossiping or making up rumors about you? How did you react?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionThree"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Did you forget to not speak at any time? How many times ?"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionFour"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='How did practicing silence affect you today? Did you feel any differently than normal?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionFive"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=' How did your body feel?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionSix"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='How did your mind respond to not speaking all day?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionSeven"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='Do you think practicing silence can help develop right speech? If so how?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionEight"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_height="wrap_content">
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text='If you did a meditation, was the meditation affected by your silence? If so, in what way?'
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/titleTextSize" />
+
+                <EditText
+                    android:id="@+id/edtDayThreeQuestionNine"
+                    android:layout_width="match_parent"
+                   android:background="@drawable/edt_bg"
+                    android:paddingLeft="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:layout_height="@dimen/journalEditTextHeight"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
