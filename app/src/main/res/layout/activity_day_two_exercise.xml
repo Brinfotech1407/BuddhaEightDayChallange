@@ -15,20 +15,22 @@
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Day 2"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text="Day 2"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Right thought (Samma sankappa)"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center"
+                android:text="Right thought (Samma sankappa)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -36,10 +38,10 @@
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:gravity="center|start"
                 android:text="Note 3 examples during the day of thinking negative thoughts toward a person or
 situation you encountered. Write them down on a notepad for later reference."
                 android:textColor="@color/colorBlack"
