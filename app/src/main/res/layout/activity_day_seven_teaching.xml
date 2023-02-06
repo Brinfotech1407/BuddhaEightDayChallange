@@ -71,7 +71,7 @@ deeper awareness of greater truth."
 (1) the activities of the body (kaya), (2) sensations or feelings (vedana), (3) the
 activities of the mind (citta) and (4) ideas, thoughts, conceptions, and things
 (dhamma)."
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
 
@@ -85,7 +85,7 @@ activities of the mind (citta) and (4) ideas, thoughts, conceptions, and things
                 android:text="The practice of concentration on breathing (anapanasati) is one of the wellknown exercises, connected with the body, for mental development. There are
 several other ways of developing attentiveness in relation to the body as modes of
 meditation."
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
@@ -101,7 +101,7 @@ disappear within oneself. Concerning the activities of mind, one should be aware
 whether one’s mind is lustful or not, given to hatred or not, deluded or not,
 distracted or concentrated, etc. In this way one should be aware of all movements
 of mind, how they arise and disappear."
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
@@ -114,7 +114,7 @@ of mind, how they arise and disappear."
                 android:text="As regards ideas, thoughts, conceptions and things, one should know their
 nature, how they appear and disappear, how they are developed, how they are
 suppressed, destroyed, and so on."
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
@@ -127,7 +127,7 @@ suppressed, destroyed, and so on."
                 android:text="These four forms of mental culture or meditation are treated in detail in the
 Satipatthana Sutta (Setting-up of Mindfulness). (Excellent suggestion for
 further study)."
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
 

@@ -40,7 +40,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="KisaGotami and the Parable of the Mustard Seed  "
+                android:text="Kisa Gotami and the Parable of the Mustard Seed  "
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -62,6 +62,63 @@
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:text="Bringing the body of her son with her, Kisa found Buddha and pleaded with him to help bring her son back to life. He instructed her to go back to her village and gather mustard seeds from the households of those who have never been touched by death. From those mustard seeds, he promised he would create a medicine to bring her son back to life. Relieved, she went back to her village and began asking her neighbors for mustard seeds."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="All of her neighbours were willing to give her mustard seeds, but they all told her that their households had been touched by death. They told her, “the living are few, but the dead are many.”"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="As the day became evening and then night, she was still without any of the mustard seeds that she had been instructed to collect. She realised then the universality of death. According to the Buddhist verse her story comes from, she said:"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="“It’s not just a truth for one village or town, Nor is it a truth for a single family. But for every world settled by gods [and men] This indeed is what is true — impermanence” (Olendzki, 2010)."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="With this new understanding, her grief was calmed. She buried her son in the forest and then returned to Buddha. She confessed to Buddha that she could not obtain any of the mustard seeds he had instructed her to collect because she could not find even one house untouched by death."
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="Here is a passionate interpretation of what Buddha imparted upon Kisa Gotami at this point from The Buddha: His Life Retold, by Robert Allen Mitchell:
+“Dear girl, the life of mortals in this world is troubled and brief and inseparable from suffering, for there is not any means, nor will there ever be, by which those that have been born can avoid dying.  All living beings are of such a nature that they must die whether they reach old age or not.A famous parable of Buddhism is called The Parable of the Mustard Seed. It is found in the foundational texts of Theravada Buddhism. It revolves around a woman named Kisa Gotami, who lived during the time of Buddha’s life when he had already achieved nirvana and was traveling to impart his teachings upon others.
+"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -107,6 +164,7 @@ will be according to their deeds. Such are the terms of the world."
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
+                android:textColor="@color/colorBlack"
                 android:text="Not from weeping nor from grieving will anyone obtain peace of mind. On the contrary,
 his pain will be all the greater, and he will ruin his health. He will make himself sick and
 pale; but dead bodies cannot be restored by his lamentation."

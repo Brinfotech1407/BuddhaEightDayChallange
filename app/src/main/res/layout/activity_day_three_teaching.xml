@@ -41,7 +41,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:text="The Basics of Right Speech"
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
 

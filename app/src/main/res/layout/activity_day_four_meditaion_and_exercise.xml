@@ -61,7 +61,7 @@ sorrows disappear, and we discover life with all its wonders. Breathing in, we s
 ourselves, I have arrived. Breathing out, we say, I am home. When we do this we
 overcome dispersion and dwell peacefully in the present moment, which is the only
 moment for us to be alive. (Thich Nhat Hanh)"
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView

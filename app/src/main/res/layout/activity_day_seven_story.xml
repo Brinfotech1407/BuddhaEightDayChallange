@@ -62,7 +62,7 @@
                 android:text="The legendary founder of Zen in China famously taught a dictum
 long-regarded as the taproot of Zen, “Point directly at the human
 mind, see its nature, and become Buddha.”"
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
@@ -343,7 +343,7 @@ Entrances and Four Practices, references the practice of “wallcontemplation.�
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="Three views of a Daruma doll. Photo by Christopher Woodrich."
-                android:textColor="@color/grayColor"
+                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
