@@ -57,6 +57,9 @@ recommended) here is one excellent reference link "
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:textColorLink="@color/colorBlue"
                 android:text="https://www.vipassana.com/resources/8fp5.php The Buddha prescribed specific
 techniques to accomplish this."
                 android:textColor="@color/colorBlack"
@@ -170,6 +173,9 @@ arisen: This, monks, is called right effort.'
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:textColorLink="@color/colorBlue"
                 android:text='Right Effort lays the foundation for a creating a wholesome
 state of mind and lifestyle in order to further spiritual
 progress. It`s not through fighting with the current state of
