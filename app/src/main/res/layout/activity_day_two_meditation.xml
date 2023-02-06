@@ -42,11 +42,7 @@
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="Sit upright in a comfortable position. Concentrate on “ the 3rd eye point” meaning the
-point directly in between your eyebrows, or the tip of your nose as your breath comes in
-and out. As thoughts come just note the thought, whatever it is and bring your
-awareness back to the breath. Ask yourself 'who is breathing?' Do this for minumum 5
-            minutes in the morning and 5 minutes in the evening."
+                android:text='Sit upright in a comfortable position. Concentrate on “ the 3rd eye point” meaning the point directly in between your eyebrows, or the tip of your nose as your breath comes in and out. As thoughts come just note the thought, whatever it is and bring your awareness back to the breath. Ask yourself "who is breathing?" Do this for minumum 5 minutes in the morning and 5 minutes in the evening.'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

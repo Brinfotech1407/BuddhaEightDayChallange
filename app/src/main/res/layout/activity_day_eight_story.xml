@@ -34,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="One day Buddha was walking from one town to another with few of his followers this was in the
@@ -42,8 +43,7 @@ Buddha told one of his disciples “ I am thirsty, please get me some water from
 The disciple walked up to the lake… when he reached it, he noticed that some people were washing
 clothes in the water and right at that moment a bull cart started crossing the lake right at the edge of it
 as a result, the water became very muddy, very, turbid. The disciple thought: How can I give this
-muddy water to Buddha to drink?
-"
+muddy water to Buddha to drink?"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

@@ -31,8 +31,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text="Right mindfulness (Samma sati)
-"
+                android:text="Right mindfulness (Samma sati)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -114,8 +113,7 @@ of mind, how they arise and disappear."
                 android:gravity="center|start"
                 android:text="As regards ideas, thoughts, conceptions and things, one should know their
 nature, how they appear and disappear, how they are developed, how they are
-suppressed, destroyed, and so on.
-"
+suppressed, destroyed, and so on."
                 android:textColor="@color/grayColor"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -149,8 +147,7 @@ penetrating it right through to its foundations. This truth, in order to become 
 truth, has to be known directly. It is not enough merely to accept it on faith, to believe
 it on the authority of books or a teacher, or to think it out through deductions and
 inferences. It has to be known by insight, grasped and absorbed by a kind of knowing
-which is also an immediate seeing.
-"
+which is also an immediate seeing."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

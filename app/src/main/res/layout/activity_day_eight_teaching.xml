@@ -20,8 +20,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text="Day 8
-"
+                android:text="Day 8"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -32,8 +31,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text="Right concentration (Samma samadhi)
-"
+                android:text="Right concentration (Samma samadhi)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -41,8 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
-                android:text="Vol. 21, No. 9: 12 September 2011
-"
+                android:text="Vol. 21, No. 9: 12 September 2011"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -50,8 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Words of Dhamma (Dharma)
-"
+                android:text="Words of Dhamma (Dharma)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -89,8 +85,7 @@ attentiveness, I shall train it like a mahout trains a wild elephant."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Samma Samadhi
-"
+                android:text="Samma Samadhi"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -98,8 +93,7 @@ attentiveness, I shall train it like a mahout trains a wild elephant."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="S. N. Goenka
-"
+                android:text="S. N. Goenka"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -112,7 +106,7 @@ attentiveness, I shall train it like a mahout trains a wild elephant."
 will achieve one-pointed concentration, but mere concentration of mind is not sammā samādhi
 (right concentration). For sammā samādhi, it is necessary for the mind to be wholesome, it is
 necessary for the mind to be untainted. Only the one-pointedness of a wholesome mind can be
-called kusalacittekaggatā samādhi—samādhi free from defilements"
+called kusalacittekaggatā samādhi—samādhi free from defilements."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -137,8 +131,7 @@ filled with ignorance is not wholesome. When the mind is concentrated with the h
 of craving, aversion or ignorance, it will achieve concentration, but it will be neither balanced nor
 equanimous. Such concentration of the mind is not proper, not pure, not conducive to happiness.
 Concentration that is dependent upon craving, aversion or ignorance is the absorption of an
-unbalanced mind—how can it be beneficial?
-"
+unbalanced mind—how can it be beneficial?"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

@@ -30,8 +30,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text="Right effort (Samma vayama)
-"
+                android:text="Right effort (Samma vayama)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -71,9 +70,7 @@ techniques to accomplish this."
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="Right Effort
-
-"
+                android:text="Right Effort"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -134,8 +131,7 @@ non-arising of evil, unskillful qualities that have not yet arisen.'
                 android:gravity="center|start"
                 android:text='[ii] "He generates desire, endeavors, activates persistence, upholds
 &amp; exerts his intent for the sake of the abandonment of evil, unskillful
-qualities that have arisen.
-            '
+qualities that have arisen.'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -180,8 +176,7 @@ progress. It`s not through fighting with the current state of
 mind or thoughts, but by utilizing prescribed techniques and cultivating good habits. The Buddha prescribed specific
 techniques to accomplish this. Here is one excellent reference
 link https://www.vipassana.com/resources/8fp5.php (recommended to
-read today as time permits).
-            ..'
+read today as time permits)...'
 
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />

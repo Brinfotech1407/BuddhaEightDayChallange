@@ -28,8 +28,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text=" Right effort (Samma vayama)
-"
+                android:text=" Right effort (Samma vayama)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -67,9 +66,7 @@
                 android:text="Once upon a time, King Brahmadatta ruled in Benares, in
 northern India. He had a mighty horse, who had been born in
 the land of Sindh, in the Indus River valley of western India.
-Indeed, this horse was the Enlightenment Being.
-
-"
+Indeed, this horse was the Enlightenment Being."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -116,8 +113,7 @@ respected and trusted him.'
 to make war on King Brahmadatta. Each king brought four
 great armies - an elephant cavalry, a horse cavalry, a chariot
 brigade and ranks of foot soldiers. Together the seven kings,
-with all their armies, surrounded the city of Benares.
-.'
+with all their armies, surrounded the city of Benares.'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -149,9 +145,8 @@ go."'
 be victorious over these seven kings?" The knight replied, "If
 you permit me to ride out on the bravest and wisest, the great
 horse Knowing-one, only then can I win the battle." The king
-agreed and said, "My champion, it is up to you and Knowingone to save the country in its time of danger. Take with you
-whateveryouneed"
-            '
+agreed and said, "My champion, it is up to you and Knowing-one to save the country in its time of danger. Take with you
+whatever you need"'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

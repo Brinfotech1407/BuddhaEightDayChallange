@@ -30,8 +30,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text=" Right understanding (Samma ditthi)
-"
+                android:text=" Right understanding (Samma ditthi)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -67,8 +66,7 @@ envious, offended, loving etc.. "
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="Remember the experiences that led up to this reaction.
-"
+                android:text="Remember the experiences that led up to this reaction."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

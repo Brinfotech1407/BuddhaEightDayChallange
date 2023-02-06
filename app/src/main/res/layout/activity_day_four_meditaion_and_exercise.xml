@@ -42,9 +42,9 @@
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
                 android:text="Today the exercise and the Meditiation are combined. Follow the instructions for
-walking medtation below:
-"
+walking medtation below:"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -54,13 +54,13 @@ walking medtation below:
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
                 android:text="When we practice walking meditation, we arrive in each moment. Our true home is in
 the present moment. When we enter the present moment deeply, our regrets and
 sorrows disappear, and we discover life with all its wonders. Breathing in, we say to
 ourselves, I have arrived. Breathing out, we say, I am home. When we do this we
 overcome dispersion and dwell peacefully in the present moment, which is the only
-moment for us to be alive. (Thich Nhat Hanh)
-"
+moment for us to be alive. (Thich Nhat Hanh)"
                 android:textColor="@color/grayColor"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -68,13 +68,13 @@ moment for us to be alive. (Thich Nhat Hanh)
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
+                android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:text="The Vietnamese monk Thich Nhat Hanh, which is a notable influence in the modern
 mindfulness movement and in modern Buddhism, has a simplified approach to walking
 meditation. Different from other techniques, this one makes use of affirmations in order
-to produce positive mental states.
-"
+to produce positive mental states."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -84,8 +84,8 @@ to produce positive mental states.
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="● Walk slowly, with calmness and comfort
-"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text="● Walk slowly, with calmness and comfort"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -95,9 +95,9 @@ to produce positive mental states.
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
                 android:text="● Be aware of each move, of each step. Keep bringing your attention to the
-present moment.
-"
+present moment."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -107,8 +107,30 @@ present moment.
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="● Mentally repeat one of these verses, as you walk
-"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text="● Mentally repeat one of these verses, as you walk"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="  ○ Breathing in “I have arrived”; Breathing out “I am home”"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/normalTextSize" />
+
+            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:text="  ○ Breathing in “In the here”; Breathing out “In the now”"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -118,8 +140,8 @@ present moment.
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="  ○ Breathing in “I have arrived”; Breathing out “I am home”
-"
+                android:layout_marginTop="@dimen/common_margin"
+                android:text="  ○ Breathing in “I am solid”; Breathing out “I am free”"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -128,9 +150,9 @@ present moment.
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
                 android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:text="  ○ Breathing in “In the here”; Breathing out “In the now”
-"
+                android:text="  ○ Breathing in “In the ultimate”; Breathing out “I dwell”"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -138,33 +160,11 @@ present moment.
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center|start"
-                android:layout_marginLeft="@dimen/common_margin"
-                android:layout_marginRight="@dimen/common_margin"
-                android:text="  ○ Breathing in “I am solid”; Breathing out “I am free”
-"
-                android:textColor="@color/colorBlack"
-                android:textSize="@dimen/normalTextSize" />
-
-            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center|start"
-                android:layout_marginLeft="@dimen/common_margin"
-                android:layout_marginRight="@dimen/common_margin"
-                android:text="  ○ Breathing in “In the ultimate”; Breathing out “I dwell”
-"
-                android:textColor="@color/colorBlack"
-                android:textSize="@dimen/normalTextSize" />
-
-            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center|start"
+                android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:text="● Enjoy every step you take. Kiss the earth with your feet, imprinting gratitude
-and love as you walk.
-"
+and love as you walk."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

@@ -29,8 +29,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text=" Right understanding (Samma ditthi)
-"
+                android:text=" Right understanding (Samma ditthi)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 

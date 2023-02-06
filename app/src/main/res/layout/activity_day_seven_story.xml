@@ -29,8 +29,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center"
-                android:text=" Right mindfulness (Samma sati)
-"
+                android:text=" Right mindfulness (Samma sati)"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
@@ -49,8 +48,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text="Bodhidharma meditating. Artwork by Jin Nong (1687-1763). Courtesy of Freer | Sackler.
-"
+                android:text="Bodhidharma meditating. Artwork by Jin Nong (1687-1763). Courtesy of Freer | Sackler."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -171,8 +169,7 @@ China as a missionary-monk in the late fourth or early fifth century. Some say
 he came by water, some say by land. In both iterations, in his journey he
 suffered setbacks and deprivations. In the story of the southern maritime
 route, his boat was tossed by storms; in the story of his northern overland
-route, he was besieged by bandits.
-"
+route, he was besieged by bandits."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -188,8 +185,7 @@ Wu of the Liang dynasty, a devout Buddhist. Their famous meeting is recorded
 in the Blue Cliff Record, a collection of Buddhist koans compiled in 1125. The
 emperor asked Bodhidharma to tell him how much merit he had gained
 through his generous donations to construct monasteries and ordain monks.
-The exchange went something like this:
-"
+The exchange went something like this:"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -201,8 +197,7 @@ The exchange went something like this:
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="“How do I understand the merit I have accrued in building temples and
-making donations to monks?” the emperor asked.
-"
+making donations to monks?” the emperor asked."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -213,8 +208,7 @@ making donations to monks?” the emperor asked.
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text="Bodhidharma replied, “There is no merit.”
-"
+                android:text="Bodhidharma replied, “There is no merit.”"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -227,8 +221,7 @@ making donations to monks?” the emperor asked.
                 android:gravity="center|start"
                 android:text="The emperor was confused because he understood karma to mean good begets
 good and evil begets evil, but Bodhidharma knew his intentions were not
-altruistic. The emperor made donations to improve karma and boost his ego.
-"
+altruistic. The emperor made donations to improve karma and boost his ego."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -240,8 +233,7 @@ altruistic. The emperor made donations to improve karma and boost his ego.
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
                 android:text="“If there is no merit, then what is the essence of Buddhism?” The emperor
-asked.
-"
+asked."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -252,8 +244,7 @@ asked.
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text="“Empty, nothing holy,” Bodhidharma said.
-"
+                android:text="“Empty, nothing holy,” Bodhidharma said."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -264,9 +255,7 @@ asked.
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text="Shocked, the emperor asked, “Who addresses me thus?”
-
-"
+                android:text="Shocked, the emperor asked, “Who addresses me thus?”"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -277,8 +266,7 @@ asked.
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text="“I don’t know,” Bodhidharma told him.
-"
+                android:text="“I don’t know,” Bodhidharma told him."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -291,8 +279,7 @@ asked.
                 android:gravity="center|start"
                 android:text="The emperor wasn’t impressed with these answers and Bodhidharma was
 disgruntled by the emperor’s failure to understand the profundity of his
-teachings. He left the emperor’s court, and they never spoke again.
-"
+teachings. He left the emperor’s court, and they never spoke again."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -316,9 +303,7 @@ teachings. He left the emperor’s court, and they never spoke again.
                 android:gravity="center|start"
                 android:text="Bodhidharma traveled to the monastery of Shaolinsi on Songshan mountain in
 northern China. Legend holds that along the way, he crossed the Yangtze
-River on a reed, a scene frequently depicted in East Asian art.
-
-"
+River on a reed, a scene frequently depicted in East Asian art."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -337,9 +322,7 @@ say that where his eyelids fell, there grew the first tea plants in China, so he
 also gets credit for tea. This is the origin of the Daruma doll, a Japanese eggshaped toy with lidless eyes and a weighted bottom that springs upright when
 knocked over (“Daruma” is the Japanese name of Bodhidharma). While it all
 seems a bit far fetched, a historical work attributed to Bodhidharma, The Two
-Entrances and Four Practices, references the practice of “wallcontemplation.”
-
-"
+Entrances and Four Practices, references the practice of “wallcontemplation.”"
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -449,8 +432,7 @@ formally named Huike his dharma heir.'
                 android:text='This is historically known as the first Zen transmission from Bodhidharma—
 considered the founder and first patriarch of Zen—to its the second patriarch,
 Huike. It marks the beginning of the Zen lineage, an unbroken line that
-continues today.
-'
+continues today.'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -465,8 +447,7 @@ continues today.
 carried to Vietnam. Zen teachings thereafter spread throughout China and
 were established in Korea by the ninth century. Although Zen is usually
 associated with Japan, it did not take root there until the 12th century, almost
-seven hundred years after the death of Bodhidharma.
-'
+seven hundred years after the death of Bodhidharma.'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
@@ -478,8 +459,7 @@ seven hundred years after the death of Bodhidharma.
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text='Lions Roar Magazine BY HALEIGH ATWOOD| JANUARY 22, 2019
-'
+                android:text='Lions Roar Magazine BY HALEIGH ATWOOD| JANUARY 22, 2019'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

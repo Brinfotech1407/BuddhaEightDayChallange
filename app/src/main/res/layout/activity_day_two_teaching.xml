@@ -44,9 +44,7 @@
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:text="Don't Judge. By judging others we only hurt ourselves. By examining our own faults
-before accusing others we improve ourselves AND set a good example for others.
-
-"
+before accusing others we improve ourselves AND set a good example for others."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
