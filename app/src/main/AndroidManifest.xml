@@ -26,6 +26,11 @@
             android:name="com.brinfotech.feedbacksystem.activities.ChangeDayScreen"
             android:label="@string/title_activity_dashboard"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.brinfotech.feedbacksystem.activities.InfoScreen"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.brinfotech.feedbacksystem.activities.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">

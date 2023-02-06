@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_height="wrap_content">
+
+        <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Info"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/titleTextSize" />
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="@dimen/_20sdp"
+            app:srcCompat="@drawable/ic_close"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:tint="@color/colorBlack"
+            android:layout_height="@dimen/_25sdp"/>
+
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/common_margin"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:gravity="center"
+                    android:text="Eight Day Buddha Challenge"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/normalTextSize" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_65sdp"
+                        android:src="@drawable/ic_budhha_image" />
+
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:gravity="center"
+                        android:text="Preface"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:text="The essence of the Buddha’s teachings is based upon the Four Noble Truths; the Buddha has been likened to a physician who diagnoses a condition, explains what causes it and what will end it, and then lays out in detail its cure. "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:gravity="center"
+                        android:text="The Four Noble Truths: "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/titleTextSize" />
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/ic_buddha_info"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:layout_height="wrap_content"/>
+
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="One of the most essential tenets of Buddhism from the teaching of the Buddha is the outline of the Eightfold Path. In his teaching the Buddha listed 8 qualities or aspirations that we can cultivate in order to lead us closer and closer to enlightened consciousness. "
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="For this 8 day Buddhist challenge, each day we we'll explore one of the eight parts of the Eightfold Path. Each day there will be a story, a teaching, a meditation, and an exercise, followed by a journal entry to be made at the end of the day."
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right understanding (Samma ditthi)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right thought (Samma sankappa)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right speech (Samma vaca)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right action (Samma kammanta)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right livelihood (Samma ajiva)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right effort (Samma vayama)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right mindfulness (Samma sati)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+                    <com.brinfotech.feedbacksystem.customClasses.FontsTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_margin"
+                        android:text="Right concentration (Samma samadhi)"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/normalTextSize" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

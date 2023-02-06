@@ -33,6 +33,9 @@ public class DashboardActivity extends BaseActivity {
     @BindView(R.id.imgSettings)
     ImageView imgSettings;
 
+    @BindView(R.id.imgInfo)
+    ImageView imgInfo;
+
 
     private ArrayList<AHBottomNavigationItem> bottomNavigationItems = new ArrayList<>();
 
@@ -49,6 +52,13 @@ public class DashboardActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), SettingActivity.class));
+            }
+        });
+
+        imgInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), InfoScreen.class));
             }
         });
     }

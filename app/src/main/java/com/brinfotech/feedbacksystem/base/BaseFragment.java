@@ -128,12 +128,6 @@ public abstract class BaseFragment extends Fragment {
         ImageView imgSettings = getActivity().findViewById(R.id.imgSettings);
         txtSideHead.setText(title);
 
-        imgInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
 
     }
 }
