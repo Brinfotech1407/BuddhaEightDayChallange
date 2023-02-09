@@ -69,7 +69,7 @@ mud had settled down, and the water above it looked fit to be had."
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
                 android:gravity="center|start"
-                android:text="so he collected some water in the pot and brought it to the Buddha. The Buddha looked at the water
+                android:text="So he collected some water in the pot and brought it to the Buddha. The Buddha looked at the water
 and looked at the and then he looked up at the disciple and said: See… you let the water be and the
 mud settled down on its own, you got clear water, it didn’t require any effort"
                 android:textColor="@color/colorBlack"

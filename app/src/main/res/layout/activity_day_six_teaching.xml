@@ -34,21 +34,6 @@
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/titleTextSize" />
 
-            <com.brinfotech.feedbacksystem.customClasses.FontTextViewBold
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start|center"
-                android:layout_marginLeft="@dimen/common_margin"
-                android:layout_marginTop="@dimen/common_margin"
-                android:layout_marginRight="@dimen/common_margin"
-                android:text="Right Effort lays the foundation for a creating a wholesome state of mind and
-lifestyle in order to further spiritual progress. Spiritual advancement will come
-not through fighting with the current state of mind or thoughts, but by utilizing
-prescribed techniques and cultivating good habits. (Doing your own research is
-recommended) here is one excellent reference link "
-                android:textColor="@color/colorBlack"
-                android:textSize="@dimen/titleTextSize" />
-
 
             <com.brinfotech.feedbacksystem.customClasses.FontsTextView
                 android:layout_width="match_parent"
@@ -57,11 +42,7 @@ recommended) here is one excellent reference link "
                 android:layout_marginLeft="@dimen/common_margin"
                 android:layout_marginTop="@dimen/common_margin"
                 android:layout_marginRight="@dimen/common_margin"
-                android:linksClickable="true"
-                android:autoLink="web"
-                android:textColorLink="@color/colorBlue"
-                android:text="https://www.vipassana.com/resources/8fp5.php The Buddha prescribed specific
-techniques to accomplish this."
+                android:text="The Buddha prescribed specific techniques to accomplish this."
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 

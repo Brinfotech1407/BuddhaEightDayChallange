@@ -164,27 +164,6 @@ arisen: This, monks, is called right effort.'
                 android:textColor="@color/colorBlack"
                 android:textSize="@dimen/normalTextSize" />
 
-            <com.brinfotech.feedbacksystem.customClasses.FontsTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center|start"
-                android:layout_marginLeft="@dimen/common_margin"
-                android:layout_marginTop="@dimen/common_margin"
-                android:layout_marginRight="@dimen/common_margin"
-                android:linksClickable="true"
-                android:autoLink="web"
-                android:textColorLink="@color/colorBlue"
-                android:text='Right Effort lays the foundation for a creating a wholesome
-state of mind and lifestyle in order to further spiritual
-progress. It`s not through fighting with the current state of
-mind or thoughts, but by utilizing prescribed techniques and cultivating good habits. The Buddha prescribed specific
-techniques to accomplish this. Here is one excellent reference
-link https://www.vipassana.com/resources/8fp5.php (recommended to
-read today as time permits)...'
-
-                android:textColor="@color/colorBlack"
-                android:textSize="@dimen/normalTextSize" />
-
         </LinearLayout>
 
     </ScrollView>
