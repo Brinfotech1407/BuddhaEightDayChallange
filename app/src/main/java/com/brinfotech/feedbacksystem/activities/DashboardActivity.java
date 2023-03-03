@@ -1,25 +1,29 @@
 package com.brinfotech.feedbacksystem.activities;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-
-import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
-import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
-import com.brinfotech.feedbacksystem.base.BaseActivity;
-
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
+import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.brinfotech.feedbacksystem.R;
+import com.brinfotech.feedbacksystem.base.BaseActivity;
 import com.brinfotech.feedbacksystem.fragment.ExerciseFragment;
 import com.brinfotech.feedbacksystem.fragment.JournalFragment;
 import com.brinfotech.feedbacksystem.fragment.MeditationFragment;
 import com.brinfotech.feedbacksystem.fragment.StoryFragment;
 import com.brinfotech.feedbacksystem.fragment.TeachingFragment;
 import com.brinfotech.feedbacksystem.helpers.FragmentHelper;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.util.ArrayList;
 
@@ -36,6 +40,9 @@ public class DashboardActivity extends BaseActivity {
     @BindView(R.id.imgInfo)
     ImageView imgInfo;
 
+    @BindView(R.id.adView)
+    AdView adView;
+
 
     private ArrayList<AHBottomNavigationItem> bottomNavigationItems = new ArrayList<>();
 
@@ -43,6 +50,10 @@ public class DashboardActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        intializeAdmob();
+
+        loadAdRequest();
 
         displayHomeFragment();
 
@@ -59,6 +70,20 @@ public class DashboardActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getActivity(), InfoScreen.class));
+            }
+        });
+
+    }
+
+    private void loadAdRequest() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+    }
+
+    private void intializeAdmob() {
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
     }
@@ -94,12 +119,12 @@ public class DashboardActivity extends BaseActivity {
     }
 
     private void displayHomeFragment() {
-        FragmentHelper.changeFragment(DashboardActivity.this,R.id.contentframe,new StoryFragment());
+        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new StoryFragment());
     }
 
     @Override
     public void onBackPressed() {
-            super.onBackPressed();
+        super.onBackPressed();
     }
 
     @Override
@@ -124,6 +149,25 @@ public class DashboardActivity extends BaseActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    private void redirectToStoryFragment() {
+        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new StoryFragment());
+    }
+
+    private void redirectToTeachingFragment() {
+        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new TeachingFragment());
+    }
+
+    private void redirectToMeditationFragment() {
+        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new MeditationFragment());
+    }
+
+    private void redirectToExerciseFragment() {
+        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new ExerciseFragment());
+    }
+
+    private void redirectToJournalFragment() {
+        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new JournalFragment());
+    }
 
     private class BottomNavigationTabSelectedListener implements AHBottomNavigation.OnTabSelectedListener {
         @Override
@@ -150,24 +194,6 @@ public class DashboardActivity extends BaseActivity {
 
             return true;
         }
-    }
-
-    private void redirectToStoryFragment() {
-        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new StoryFragment());
-    }
-
-    private void redirectToTeachingFragment() {
-        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new TeachingFragment());
-    }
-    private void redirectToMeditationFragment() {
-        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new MeditationFragment());
-    }
-    private void redirectToExerciseFragment() {
-        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new ExerciseFragment());
-    }
-
-    private void redirectToJournalFragment() {
-        FragmentHelper.changeFragment(DashboardActivity.this, R.id.contentframe, new JournalFragment());
     }
 
 }

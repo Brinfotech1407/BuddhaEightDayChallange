@@ -13,9 +13,16 @@
         android:id="@+id/contentframe"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/viewFooter"
+        android:layout_above="@+id/adView"
         android:layout_marginTop="2dp" />
 
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewFooter"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_mob_banner_id" />
 
     <View
         android:id="@+id/viewFooter"
@@ -23,6 +30,7 @@
         android:layout_height="1dp"
         android:layout_above="@+id/loutBottomView"
         android:background="@color/grayColor" />
+
 
     <LinearLayout
         android:id="@+id/loutBottomView"
@@ -40,5 +48,6 @@
             android:background="@color/colorWhite" />
 
     </LinearLayout>
+
 
 </RelativeLayout>

@@ -1,9 +1,7 @@
 package com.brinfotech.feedbacksystem.base;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -12,7 +10,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.brinfotech.feedbacksystem.R;
-import com.brinfotech.feedbacksystem.activities.SettingActivity;
 import com.brinfotech.feedbacksystem.customClasses.ProgressLoader;
 
 import butterknife.BindView;
