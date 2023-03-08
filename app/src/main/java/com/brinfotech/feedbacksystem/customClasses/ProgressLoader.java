@@ -17,7 +17,7 @@ public class ProgressLoader extends Dialog {
     public ProgressLoader(Context context) {
         super(context);
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = inflater.inflate(R.layout.loader2, null);
+        View view = inflater.inflate(R.layout.loader_view, null);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(view);
         setCancelable(false);

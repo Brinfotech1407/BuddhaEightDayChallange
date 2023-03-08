@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.brinfotech.buddhaChallange"
+        applicationId "com.buddha.challenge"
         minSdkVersion 19
         targetSdkVersion 33
         versionCode 1
