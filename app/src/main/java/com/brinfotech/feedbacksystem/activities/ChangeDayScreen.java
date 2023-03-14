@@ -4,21 +4,29 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.brinfotech.feedbacksystem.R;
 import com.brinfotech.feedbacksystem.base.BaseActivity;
 import com.brinfotech.feedbacksystem.helpers.PreferenceKeys;
 import com.brinfotech.feedbacksystem.network.Utils;
+import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.pixplicity.easyprefs.library.Prefs;
+
+import org.jetbrains.annotations.NotNull;
 
 import butterknife.BindView;
 
@@ -165,16 +173,66 @@ public class ChangeDayScreen extends BaseActivity {
             dialog.setMessage("Please wait ...");
             dialog.show();
 
+            AdRequest adRequest = new AdRequest.Builder().build();
+            InterstitialAd.load(this,getActivity().getResources().getString(R.string.ad_mob_interstial_id), adRequest,
+                    new InterstitialAdLoadCallback() {
+                        @Override
+                        public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                            mInterstitialAd = interstitialAd;
+                            interstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
+                                @Override
+                                public void onAdClicked() {
+                                    super.onAdClicked();
+                                }
 
-            final InterstitialAd mInterstitialAd = new InterstitialAd(this);
-            // set the ad unit ID
-            mInterstitialAd.setAdUnitId(getActivity().getResources().getString(R.string.ad_mob_interstial_id));
+                                @Override
+                                public void onAdDismissedFullScreenContent() {
+                                    super.onAdDismissedFullScreenContent();
+                                    mInterstitialAd=null;
+                                    toggleVisibilityChk(selectedDay,redirectToScreen);
+                                }
 
-            AdRequest adRequest = new AdRequest.Builder()
-                    .build();
+                                @Override
+                                public void onAdFailedToShowFullScreenContent(@NonNull @NotNull AdError adError) {
+                                    super.onAdFailedToShowFullScreenContent(adError);
+                                    mInterstitialAd = null;
+                                    if (dialog != null && dialog.isShowing()) {
+                                        dialog.dismiss();
+                                    }
+                                    toggleVisibilityChk(selectedDay,redirectToScreen);
+                                }
 
-            // Load ads into Interstitial Ads
-            mInterstitialAd.loadAd(adRequest);
+                                @Override
+                                public void onAdImpression() {
+                                    super.onAdImpression();
+                                }
+
+                                @Override
+                                public void onAdShowedFullScreenContent() {
+                                    super.onAdShowedFullScreenContent();
+                                }
+                            });
+                            if (dialog != null && dialog.isShowing()) {
+                                dialog.dismiss();
+
+                                if (mInterstitialAd != null) {
+                                    mInterstitialAd.show(ChangeDayScreen.this);
+                                }
+                            }
+                            isLoaded[0] = true;
+                        }
+
+                        @Override
+                        public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                            // Handle the error
+                            Log.d(TAG, loadAdError.toString());
+                            mInterstitialAd = null;
+                            if (dialog != null && dialog.isShowing()) {
+                                dialog.dismiss();
+                                toggleVisibilityChk(selectedDay,redirectToScreen);
+                            }
+                        }
+                    });
 
 
             new Handler().postDelayed(new Runnable() {
@@ -190,38 +248,6 @@ public class ChangeDayScreen extends BaseActivity {
                     }
                 }
             }, 8000);
-
-            mInterstitialAd.setAdListener(new AdListener() {
-
-                public void onAdLoaded() {
-
-                    //  dialog dismiss
-                    if (dialog != null && dialog.isShowing()) {
-                        dialog.dismiss();
-
-                        if (mInterstitialAd != null && mInterstitialAd.isLoaded()) {
-                            mInterstitialAd.show();
-                        }
-                    }
-                    isLoaded[0] = true;
-                }
-
-                @Override
-                public void onAdFailedToLoad(int i) {
-                    if (dialog != null && dialog.isShowing()) {
-                        dialog.dismiss();
-                        toggleVisibilityChk(selectedDay,redirectToScreen);
-                    }
-                }
-
-                @Override
-                public void onAdClosed() {
-                    toggleVisibilityChk(selectedDay,redirectToScreen);
-                }
-
-
-            });
-
 
         } else {
             toggleVisibilityChk(selectedDay,redirectToScreen);
